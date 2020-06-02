@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}
+<div class="article-meta">
+    <div class="title"><span>{{ .Title | markdownify }}</span></div>
+
+    <div>
+        {{ with .Params.author }}
+          <span class="author">By {{ . }}
+          </span>
+        {{ end }}
+        {{ if (gt .Params.date 0) }}
+            <span class="date"> : {{ .Date.Format "Monday, January 2 2006"}}</span>
+        {{ end }}
+    </div>
+</div>
+<hr/>
+<main>
+    {{ .Content }}
+    {{ $pages := .Pages }}
+    {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+    {{ range first 3 (where $pages "Section" "!=" "") }}
+    {{ .Title }}
+    {{ end }}
+</main>
+<hr />
+<br/><br/>
+{{ partial "disqus.html" }}
+<br/><br/>
+{{ partial "footer.html" . }}
