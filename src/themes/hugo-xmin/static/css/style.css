@@ -17,6 +17,25 @@ a:hover, a:active {
  text-decoration: underline;
 }
 
+/* Hide subtitle, rearrange on mobile devices */
+.wsl-logo{
+    width:10%;
+    height:auto;
+}
+.wsl-title{
+    display:inline;
+}
+@media (max-width:768px){
+    .wsl-logo{
+        width:25%;
+    }
+    .wsl-title{
+        display:block;
+    }
+    .sub-title{
+        display:none;
+    }
+}
 /* header and footer areas */
 .menu { 
   padding: 0;
