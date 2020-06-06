@@ -1,5 +1,3 @@
 ---
-Title: "Welcome!"
+Title: "The latest post from Wsl-Blog:"
 ---
-
-**Page is currently under construction, please check back soon!**
