@@ -26,6 +26,10 @@ footnotereturnlinkcontents = "↩"
     name = "Tags"
     url = "/tags/"
     weight = 4
+[[menu.main]]
+    name = "Subscribe"
+    url = "/subscribe/"
+    weight = 5
 
 [params]
     description = "The online blog for all of Zach's projects, rambles, and stuff."
