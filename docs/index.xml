@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Wsl Blog</title>
     <link>https://www.wsl-blog.com/posts/</link>
@@ -17,6 +17,7 @@
       <link>/posts/2020-06-06-revivingtheblog/</link>
       <pubDate>Sat, 06 Jun 2020 07:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/2020-06-06-RevivingTheBlog/TrailerSketching_w.jpg" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/2020-06-06-RevivingTheBlog/TrailerSketching_w.jpg</url>
           <title>Reviving the Blog Thumbnail</title>
@@ -32,6 +33,7 @@ I&amp;rsquo;ve recently relocated to the Pacific Northwest - my job had a positi
       <link>/posts/2019-08-02-africansumac/</link>
       <pubDate>Fri, 02 Aug 2019 07:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/2019-08-02-AfricanSumac/GlamourShot6.jpg" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/2019-08-02-AfricanSumac/GlamourShot6.jpg</url>
           <title>*Sersia lancea* African Sumac Thumbnail</title>
@@ -46,6 +48,7 @@ I&amp;rsquo;ve recently relocated to the Pacific Northwest - my job had a positi
       <link>/posts/2019-07-26-theshed/</link>
       <pubDate>Fri, 26 Jul 2019 08:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Shed Thumbnail</title>
@@ -62,6 +65,7 @@ One of my favorite things about this job is completing service requests - these 
       <link>/posts/2019-07-21-ailanthus/</link>
       <pubDate>Sun, 21 Jul 2019 08:00:00 -0700</pubDate>
       <author>Jennifer Brady</author>
+      <media:content url="https://www.wsl-blog.com/images/2019-07-21-Ailanthus/GlamourShot1.jpg" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/2019-07-21-Ailanthus/GlamourShot1.jpg</url>
           <title>*Ailanthus altissima* tree of heaven Thumbnail</title>
@@ -76,6 +80,7 @@ One of my favorite things about this job is completing service requests - these 
       <link>/posts/2019-07-19-leadtree/</link>
       <pubDate>Fri, 19 Jul 2019 08:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/2019-07-19-LeadTree/GlamourShot2.jpg" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/2019-07-19-LeadTree/GlamourShot2.jpg</url>
           <title>*Leucaena leucocephala* Lead Tree Thumbnail</title>
@@ -90,6 +95,7 @@ One of my favorite things about this job is completing service requests - these 
       <link>/posts/2018-09-18-explosions/</link>
       <pubDate>Tue, 18 Sep 2018 14:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Explosions in the Dungeon Thumbnail</title>
@@ -105,6 +111,7 @@ Obviously, the excitement added by all these visual effects is well worth the ti
       <link>/posts/2018-08-26-lists/</link>
       <pubDate>Sun, 26 Aug 2018 15:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Wonderful Lists Thumbnail</title>
@@ -119,6 +126,7 @@ Obviously, the excitement added by all these visual effects is well worth the ti
       <link>/posts/2018-08-09-the-rogueliketutorial-week7/</link>
       <pubDate>Thu, 09 Aug 2018 13:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Roguelike Tutorial - Week 7 Thumbnail</title>
@@ -133,6 +141,7 @@ Obviously, the excitement added by all these visual effects is well worth the ti
       <link>/posts/2018-07-31-the-roguelike-tutorial-week5b6/</link>
       <pubDate>Tue, 31 Jul 2018 13:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Roguelike Tutorial - Week 5b/6 Thumbnail</title>
@@ -147,6 +156,7 @@ Obviously, the excitement added by all these visual effects is well worth the ti
       <link>/posts/2018-07-24-the-roguelike-tutorial-week5a/</link>
       <pubDate>Tue, 24 Jul 2018 16:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Roguelike Tutorial - Week 5a Thumbnail</title>
@@ -162,6 +172,7 @@ After finishing Part 7 last week I decided to try and fix/change a few things th
       <link>/posts/2018-07-18-the-roguelike-tutorial-week4/</link>
       <pubDate>Wed, 18 Jul 2018 12:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Roguelike Tutorial - Week 4 Thumbnail</title>
@@ -176,6 +187,7 @@ After finishing Part 7 last week I decided to try and fix/change a few things th
       <link>/posts/2018-07-10-the-roguelike-tutorial-week3b/</link>
       <pubDate>Tue, 10 Jul 2018 22:31:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Roguelike Tutorial - Week 3b Thumbnail</title>
@@ -190,6 +202,7 @@ After finishing Part 7 last week I decided to try and fix/change a few things th
       <link>/posts/2018-07-02-the-roguelike-tutorial-week3/</link>
       <pubDate>Mon, 02 Jul 2018 08:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Roguelike Tutorial - Week 3a Thumbnail</title>
@@ -204,6 +217,7 @@ After finishing Part 7 last week I decided to try and fix/change a few things th
       <link>/posts/2018-06-25-the-roguelike-tutorial-week2/</link>
       <pubDate>Mon, 25 Jun 2018 08:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Roguelike Tutorial - Week 2 Thumbnail</title>
@@ -219,6 +233,7 @@ The Switch to SDL So the game logic is completely divorced from the rendering sy
       <link>/posts/2018-06-20-the-roguelike-tutorial-week1/</link>
       <pubDate>Wed, 20 Jun 2018 07:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>The Roguelike Tutorial - Week 1 Thumbnail</title>
@@ -234,6 +249,7 @@ For those not familiar with this famous tutorial - each part covers a small chun
       <link>/posts/2017-10-22-messing-with-web/</link>
       <pubDate>Sun, 22 Oct 2017 07:00:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Messing With Web Design - Again Thumbnail</title>
@@ -249,6 +265,7 @@ Really enjoying working with Hugo - haven&amp;rsquo;t even played with any of th
       <link>/posts/2017-10-15-yet-another-blog-attempt/</link>
       <pubDate>Mon, 16 Oct 2017 20:55:23 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Yet Another Blog Attempt Thumbnail</title>
@@ -264,6 +281,7 @@ Well, I officially gave up on web design. Yep! Turns out, I should probably leav
       <link>/posts/2017-01-07-gradients-and-actions/</link>
       <pubDate>Sat, 07 Jan 2017 11:45:00 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Gradients for Colors, and Actions for Actors Thumbnail</title>
@@ -279,6 +297,7 @@ I&amp;rsquo;ve seriously read this book cover to cover, multiple times - and eve
       <link>/posts/2016-12-20-automata-caves/</link>
       <pubDate>Thu, 22 Dec 2016 19:18:06 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Randomly Generated Caves with Cellular Automata Thumbnail</title>
@@ -294,6 +313,7 @@ Recently, I&amp;rsquo;ve been working on writing a nice little interface for han
       <link>/posts/2016-11-15-commenting-system/</link>
       <pubDate>Tue, 15 Nov 2016 19:18:06 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Commenting System with Staticman! Thumbnail</title>
@@ -309,6 +329,7 @@ Recently, I&amp;rsquo;ve been working on writing a nice little interface for han
       <link>/posts/2016-11-12-partying-with-jekyll/</link>
       <pubDate>Sat, 12 Nov 2016 18:15:06 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Partying With Jekyll Thumbnail</title>
@@ -324,6 +345,7 @@ In my scouring of the internet I discovered that a lot of static blog sites used
       <link>/posts/2016-07-15-fun-with-dijkstra-mapping/</link>
       <pubDate>Fri, 15 Jul 2016 08:29:06 -0700</pubDate>
       <author>Zach Wilder</author>
+      <media:content url="https://www.wsl-blog.com/images/" medium="image" />
       <image>
           <url>https://www.wsl-blog.com/images/</url>
           <title>Fun With Dijkstra Mapping Thumbnail</title>
