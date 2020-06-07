@@ -25,10 +25,7 @@ footnotereturnlinkcontents = "↩"
     name = "Tags"
     url = "/tags/"
     weight = 4
-[[menu.main]]
-    name = "Subscribe"
-    url = "/subscribe/"
 
 [params]
-    description = "Trees, Treasures, and Tales From The Field: An Urban Forester's Blog"
+    description = "The online blog for all of Zach's projects, rambles, and stuff."
     footer = "&copy; [Z Wilder](/about/) 2020 | [Github](https://github.com/zwilder/)"
