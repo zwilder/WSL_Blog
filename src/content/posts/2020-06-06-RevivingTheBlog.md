@@ -8,7 +8,7 @@ Categories:
 Tags:
   - Art
   - Pen and Ink
-Thumb: "2020-06-06-RevivingTheBlog/TrailerSketching.jpg"
+Thumb: "2020-06-06-RevivingTheBlog/TrailerSketching_w.jpg"
 ---
 
 At the time of writing this, I'm sitting in a small camper trailer just off the
@@ -58,7 +58,7 @@ that the best way to start was to just... start. One of the most conspicuous
 plants around there was this cool looking, smooth reddish bark shrub with mellow
 sweet smelling flowers that were pleasant to walk by.
 
-{{<ltbox src="2020-06-06-RevivingTheBlog/Manzanita.jpg">}}
+{{<ltbox src="2020-06-06-RevivingTheBlog/Manzanita_w.jpg">}}
 
 I busted out my pen and started doodling - nature journal style. I packed my
 sketchbook in it's case I made, loaded with an assortment of pencils, a couple
@@ -81,9 +81,9 @@ ocean - so my first weekend up here I decided to hit the beach, do some
 exploring, and attempt to sketch the coast.
 
 {{<ltbox-gallery3 
- src1="2020-06-06-RevivingTheBlog/Bastendorff1.jpg"
- src2="2020-06-06-RevivingTheBlog/Bastendorff2.jpg"
- src3="2020-06-06-RevivingTheBlog/Bastendorff3.jpg"
+ src1="2020-06-06-RevivingTheBlog/Bastendorff1_w.jpg"
+ src2="2020-06-06-RevivingTheBlog/Bastendorff2_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/Bastendorff3_w.jpg"
 >}}
 
 My first attempts at sketching the coast made me realize a couple of things,
@@ -100,7 +100,7 @@ position myself to sketch the bridge, so I went exploring around it instead.
 There was a cool path (overgrown with blackberry of course) that went
 under the bridge.
 
-{{<ltbox src="2020-06-06-RevivingTheBlog/SandyCreek.jpg">}}
+{{<ltbox src="2020-06-06-RevivingTheBlog/SandyCreek_w.jpg">}}
 
 I figured out a couple things here, trying to recreate "brush strokes" with the
 pen to suggest foliage works better than trying to draw foliage. Water was still
@@ -113,8 +113,8 @@ I sat in my truck and doodled these while looking through the windshield wipers 
 bay.
 
 {{<ltbox-gallery3
- src1="2020-06-06-RevivingTheBlog/WinchesterBay.jpg"
- src3="2020-06-06-RevivingTheBlog/CeresAndRelentless.jpg"
+ src1="2020-06-06-RevivingTheBlog/WinchesterBay_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/CeresAndRelentless_w.jpg"
 >}}
 
 I took a trip the next day, again up the coast, with the goal of sketching waves; I was
@@ -126,8 +126,8 @@ comfortable busting out my pen and trying to translate vision to paper. It felt
 pushes and pulls on the paper.
 
 {{<ltbox-gallery3
- src1="2020-06-06-RevivingTheBlog/CarlGWashburne.jpg"
- src3="2020-06-06-RevivingTheBlog/BobsCreek.jpg"
+ src1="2020-06-06-RevivingTheBlog/CarlGWashburne_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/BobsCreek_w.jpg"
 >}}
 
 During the work week I was sitting in my trailer, looking at my ocean sketches -
@@ -140,9 +140,9 @@ internet gave me an idea though - what if I used my water brush with water on
 the ink? The Pelikan ink is not waterproof, what would happen?
 
 {{<ltbox-gallery3
- src1="2020-06-06-RevivingTheBlog/WaveDoodle1.jpg"
- src2="2020-06-06-RevivingTheBlog/WaveDoodle2.jpg"
- src3="2020-06-06-RevivingTheBlog/WaveDoodle3.jpg"
+ src1="2020-06-06-RevivingTheBlog/WaveDoodle1_w.jpg"
+ src2="2020-06-06-RevivingTheBlog/WaveDoodle2_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/WaveDoodle3_w.jpg"
 >}}
 
 Well, the ink explodes into beautiful shades of gray is what happens. Fascinated
@@ -150,8 +150,8 @@ by this development I was encouraged to go out and get some more sketching in
 and see what happened when I hit it with the water brush.
 
 {{<ltbox-gallery3
- src1="2020-06-06-RevivingTheBlog/Yachats1.jpg"
- src3="2020-06-06-RevivingTheBlog/Yachats2.jpg"
+ src1="2020-06-06-RevivingTheBlog/Yachats1_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/Yachats2_w.jpg"
 >}}
 
 I am super excited about this - I can paint with the grays in the ink, blur out
@@ -159,8 +159,8 @@ things in the background put a light grey hint in the sky for clouds. Plus it
 looks (in my opinion) pretty darn cool. 
 
 {{<ltbox-gallery3
- src1="2020-06-06-RevivingTheBlog/SealPoint.jpg"
- src3="2020-06-06-RevivingTheBlog/WaveDoodle4.jpg"
+ src1="2020-06-06-RevivingTheBlog/SealPoint_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/WaveDoodle4_w.jpg"
 >}}
 
 This sketch of Seal Point is probably my favorite thing I've ever art-ed. I was sitting on
@@ -176,9 +176,9 @@ background to foreground. Also along my hike I stopped to attempt some more
 nature journaling - found this bizarre plant and some cool fungi.
 
 {{<ltbox-gallery3
- src1="2020-06-06-RevivingTheBlog/EelLake.jpg"
- src2="2020-06-06-RevivingTheBlog/IndianPipe.jpg"
- src3="2020-06-06-RevivingTheBlog/Mushrooms.jpg"
+ src1="2020-06-06-RevivingTheBlog/EelLake_w.jpg"
+ src2="2020-06-06-RevivingTheBlog/IndianPipe_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/Mushrooms_w.jpg"
 >}}
 
 The balance between the background and foreground kept bothering me, so that
@@ -187,8 +187,8 @@ completely and leaving only the foreground lines. The next couple day's sketches
 were attempts at this.
 
 {{<ltbox-gallery3
- src1="2020-06-06-RevivingTheBlog/Mystic.jpg"
- src3="2020-06-06-RevivingTheBlog/RailroadOverUmpqua.jpg"
+ src1="2020-06-06-RevivingTheBlog/Mystic_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/RailroadOverUmpqua_w.jpg"
 >}}
 
 After my attempt at drawing a bridge (damn you perspective!) I went back to the
@@ -197,7 +197,7 @@ month. The shipyard in the background was a fascinating jumble of old machines,
 new boats, and boat parts. A bunch of seagulls flew in right as I was about to
 drive off and I knew I just had to throw a couple of them in there. 
 
-{{<ltbox src="2020-06-06-RevivingTheBlog/HarborLights.jpg">}}
+{{<ltbox src="2020-06-06-RevivingTheBlog/HarborLights_w.jpg">}}
 
 One of the cool things I realized over this past month of increased sketching
 was how the sketchbook became a journal of the places I visited and the things I
@@ -207,8 +207,8 @@ not let the sketchbook become "precious" - doodle, draw, scribble, that's what
 it's there for and it's neat looking at my doodles over the last month.
 
 {{<ltbox-gallery3
- src1="2020-06-06-RevivingTheBlog/CapeArago.jpg"
- src3="2020-06-06-RevivingTheBlog/TrailerSketching.jpg"
+ src1="2020-06-06-RevivingTheBlog/CapeArago_w.jpg"
+ src3="2020-06-06-RevivingTheBlog/TrailerSketching_w.jpg"
 >}}
 
 Well this officially is the longest, most photo intensive blog post I have ever
