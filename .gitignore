@@ -2,3 +2,4 @@
 *.d
 *.o
 *.bak
+/src/static/

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jekyll | Wsl Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="icon" type="image/svg+xml" href="/wsl.svg" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Belgrano|Lato&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+jQuery(document).ready(function($) {
+    
+        
+    
+    $('.ltbox-trigger').click(function(e) {
+    	
+        
+		e.preventDefault();
+		
+		
+		var image_href = $(this).attr("href");
+		
+		
+
+		
+		if ($('#ltbox').length > 0) { 
+			
+			
+			$('#content').html('<img src="' + image_href + '" />');
+		   	
+			
+			
+            
+            $('#ltbox').toggle();
+		}
+		
+        return false;
+    });
+    $('body').on('click', '#ltbox', function() { 
+        
+        $('#ltbox').toggle();
+    });
+});
+</script>
+
+  </head>
+
+  <body>
+      <div class="site-title">
+          <img class="wsl-logo" src="/wsl.svg" />
+          <span class="wsl-title">
+             Wsl Blog
+          </span>
+      </div>
+    <nav>
+    <p class="sub-title">Adventures in making, arting, exploring, and other things.</p>
+    <div class="menu">
+        <ul>
+          
+              <li><a href="/">Home</a></li>
+          
+              <li><a href="/about/">About</a></li>
+          
+              <li><a href="/categories/">Categories</a></li>
+          
+              <li><a href="/tags/">Tags</a></li>
+          
+              <li><a href="/subscribe/">Subscribe</a></li>
+          
+        </ul>
+    </div>
+    <hr/>
+    </nav>
+
+
+<div class="article-meta">
+    <div class="title"><span>Jekyll</span></div>
+</div>
+    <hr/>
+<main>
+    
+
+    
+        <div class="list-article">
+            
+            
+            <div class="list-title"><a href="/posts/2016-11-15-commenting-system/">Commenting System with Staticman!</a></div>
+            
+                <span class="list-author">Zach Wilder</span>
+            
+            
+                <span class="list-date"> - 11/15/2016</span>
+            
+            <p class="list-summary">
+            The one bad thing about hosting a static blog is that implementing comments means you:
+ Outsource, letting some other site handle it (like Disqus) Come up with some sort of crazy contraption to force a comment system into a static blog Spend hours scouring the internet to see what other people have done.  Obviously, outsourcing wasn&rsquo;t an option - Disqus looks nice and all, and I&rsquo;m sure it would be fine for a lot of people, but it just wasn&rsquo;t what I wanted.
+                
+                  <a href="/posts/2016-11-15-commenting-system/">
+                    [Read more]
+                  </a>
+                
+            </p>
+        </div>
+    
+        <div class="list-article">
+            <hr class="list-break" \>
+            
+            <div class="list-title"><a href="/posts/2016-11-12-partying-with-jekyll/">Partying With Jekyll</a></div>
+            
+                <span class="list-author">Zach Wilder</span>
+            
+            
+                <span class="list-date"> - 11/12/2016</span>
+            
+            <p class="list-summary">
+            I&rsquo;ve been wanting to fix this blog for a while now, and I decided in the process that I am awful at web design/programming. Haha, well, the first step to being kinda good at something is kinda sucking at something, right?
+In my scouring of the internet I discovered that a lot of static blog sites used Jekyll to generate their site. At first, I figured it was nothing more than another insta-blog program where you just dump some content into a folder and it spits out a blog - but holy cow it is so much more than (and can be exactly) that.
+                
+                  <a href="/posts/2016-11-12-partying-with-jekyll/">
+                    [Read more]
+                  </a>
+                
+            </p>
+        </div>
+    
+</main>
+
+  <footer>
+  
+
+  
+  <hr/>
+  © <a href="/about/">Z Wilder</a> 2020 | <a href="https://github.com/zwilder/">Github</a>
+  
+  </footer>
+  <div id="ltbox">
+    <p>[Click Anywhere To Close]</p>
+    <div id="content">
+        <img src="#">
+    </div>
+</div>
+
+  </body>
+</html>
+

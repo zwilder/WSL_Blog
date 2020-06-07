@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Commenting System with Staticman! | Wsl Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="icon" type="image/svg+xml" href="/wsl.svg" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Belgrano|Lato&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+jQuery(document).ready(function($) {
+    
+        
+    
+    $('.ltbox-trigger').click(function(e) {
+    	
+        
+		e.preventDefault();
+		
+		
+		var image_href = $(this).attr("href");
+		
+		
+
+		
+		if ($('#ltbox').length > 0) { 
+			
+			
+			$('#content').html('<img src="' + image_href + '" />');
+		   	
+			
+			
+            
+            $('#ltbox').toggle();
+		}
+		
+        return false;
+    });
+    $('body').on('click', '#ltbox', function() { 
+        
+        $('#ltbox').toggle();
+    });
+});
+</script>
+
+  </head>
+
+  <body>
+      <div class="site-title">
+          <img class="wsl-logo" src="/wsl.svg" />
+          <span class="wsl-title">
+             Wsl Blog
+          </span>
+      </div>
+    <nav>
+    <p class="sub-title">Adventures in making, arting, exploring, and other things.</p>
+    <div class="menu">
+        <ul>
+          
+              <li><a href="/">Home</a></li>
+          
+              <li><a href="/about/">About</a></li>
+          
+              <li><a href="/categories/">Categories</a></li>
+          
+              <li><a href="/tags/">Tags</a></li>
+          
+              <li><a href="/subscribe/">Subscribe</a></li>
+          
+        </ul>
+    </div>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+    <div class="title"><span>Commenting System with Staticman!</span></div>
+
+    <div>
+        
+          <span class="author">By Zach Wilder
+          </span>
+        
+        
+            <span class="date"> : Tuesday, November 15 2016</span>
+        
+    </div>
+</div>
+
+<hr/>
+
+<main>
+<p>The one bad thing about hosting a static blog is that implementing comments means you:</p>
+<ul>
+<li>Outsource, letting some other site handle it (like Disqus)</li>
+<li>Come up with some sort of crazy contraption to force a comment system into a static blog</li>
+<li>Spend hours scouring the internet to see what other people have done.</li>
+</ul>
+<p>Obviously, outsourcing wasn&rsquo;t an option - Disqus looks nice and all, and I&rsquo;m sure it would be fine for a lot of people, but it just wasn&rsquo;t what I wanted. I like having full control of my data. My next idea was to find a free
+hosting site and write some crazy PHP and set up a SQL database to set up comments.</p>
+<p>But this got me thinking - how did sites handle comments before all this dynamic content was commonplace? A careful google search led me to an amazing blog post by <a href="https://eduardoboucas.com/blog/2016/08/10/staticman.html">Eduardo Boucas</a> on how he solved this exact problem. And holy crap does his solution work exactly like I wanted. In a quick nutshell: <a href="https://staticman.net">Staticman</a> is a Github bot that pushes formatted yml (or json) files into a specified directory that can than be read as comments on the page when the site is built!</p>
+<p>So how did I set this up in Jekyll? Read on!</p>
+<p>Obviously, the first thing I did was read the documentation on the <a href="https://staticman.net/docs/">Staticman</a> site, and followed the steps listed there. This is what was added to my <code>_config.yml</code> file for the site.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yml" data-lang="yml"><span style="color:#66d9ef">staticman</span>:
+  <span style="color:#66d9ef">allowedFields</span>: [<span style="color:#e6db74">&#39;name&#39;</span>, <span style="color:#e6db74">&#39;message&#39;</span>]
+  <span style="color:#66d9ef">branch</span>: master
+  <span style="color:#66d9ef">filename</span>: <span style="color:#e6db74">&#39;entry{@timestamp}&#39;</span>
+  <span style="color:#66d9ef">format</span>: yml
+  <span style="color:#66d9ef">generatedFields</span>:
+    <span style="color:#66d9ef">date</span>:
+      <span style="color:#66d9ef">type</span>: date
+      <span style="color:#66d9ef">options</span>:
+        <span style="color:#66d9ef">format</span>: <span style="color:#e6db74">&#34;timestamp-seconds&#34;</span>
+  <span style="color:#66d9ef">moderation</span>: <span style="color:#66d9ef">false</span>
+  <span style="color:#66d9ef">path</span>: <span style="color:#e6db74">&#34;_data/comments/{options.slug}&#34;</span>
+  <span style="color:#66d9ef">requiredFields</span>: [<span style="color:#e6db74">&#39;name&#39;</span>, <span style="color:#e6db74">&#39;message&#39;</span>]
+  <span style="color:#66d9ef">url</span>: https://api.staticman.net/v1/entry/zwilder/Hack_Blog/master</code></pre></div>
+<p>Now, since the blog is accessible from GitHub, and the repository is public - I removed the email field. I don&rsquo;t think anyone would appreciate their email being so easily accessible (something something security).
+The important part of this is the path variable -  this saves comments in their own folder, named after the post they were generated from.</p>
+<p>I added the comments into their very own partial HTML page in the <code>_includes\</code> directory.</p>
+<p>At the top of the <code>comments.html</code> page:</p>
+<!-- raw HTML omitted -->
+<p>The forms were also not very complex - basic HTML forms, but the important bit is the <code>name=&quot;fields[]&quot;</code> part. In the <code>_config.yml</code> file, notice that the fields declared are the same here.</p>
+<!-- raw HTML omitted -->
+<p>Finally, for the fun part: Reading the comments into the file.</p>
+<!-- raw HTML omitted -->
+<p>Broken down, the code basically checks to see if there is a folder in the comments directory (the path specified in <code>_config.yml</code>) - if there is, the comments are sorted and then looped through.
+For each comment, a variable is assigned for the name, date and message, and then with some fancy styling and HTML it is put into the post! Thats it!</p>
+<p>I honestly didn&rsquo;t believe it would be that easy - most of what took me time was formatting the forms and laying out the comments section in a pleasing (and hopefully easy to read!) manner. I took some inspiration from my terminal window as I was working - I think it actually looks pretty cool for comments. <a href="https://staticman.net">Staticman</a> is the coolest thing, and I&rsquo;m gonna have to go check out the source and maybe play around with it.</p>
+<p>Now, for some fun obstacles - typing liquid code into a markdown page for Jekyll to process as highlighted code&hellip; yeah that doesn&rsquo;t work. Fortunately, you can still use HTML, but then the post becomes a bit
+less human readable in it&rsquo;s raw form. To get the HTML code to highlight I let Jekyll build the site with the liquid code processed, opened up the generated HTML file, copy-pasta&rsquo;d it back into the markdown file, and changed the liquid code back to what it should be before Jekyll processed it. Kinda a pain, but definitely easier than doing all the highlighting by hand!</p>
+
+</main>
+<hr/>
+<div style="width:100%;text-align:center;">
+    
+    <span>
+        
+        <a href = "/posts/2016-11-12-partying-with-jekyll/">&laquo;&laquo; Previous Post</a>
+    </span>
+    
+    
+    <span>
+        |
+        
+        <a href = "/posts/2016-12-20-automata-caves/">Next Post &raquo;&raquo;</a>
+    </span>
+    
+</div>
+<br/><br/>
+<a id="comments"></a>
+
+
+<br/><br/>
+  <footer>
+  
+
+  
+  <hr/>
+  © <a href="/about/">Z Wilder</a> 2020 | <a href="https://github.com/zwilder/">Github</a>
+  
+  </footer>
+  <div id="ltbox">
+    <p>[Click Anywhere To Close]</p>
+    <div id="content">
+        <img src="#">
+    </div>
+</div>
+
+  </body>
+</html>
+

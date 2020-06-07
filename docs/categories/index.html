@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Categories | Wsl Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="icon" type="image/svg+xml" href="/wsl.svg" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Belgrano|Lato&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+jQuery(document).ready(function($) {
+    
+        
+    
+    $('.ltbox-trigger').click(function(e) {
+    	
+        
+		e.preventDefault();
+		
+		
+		var image_href = $(this).attr("href");
+		
+		
+
+		
+		if ($('#ltbox').length > 0) { 
+			
+			
+			$('#content').html('<img src="' + image_href + '" />');
+		   	
+			
+			
+            
+            $('#ltbox').toggle();
+		}
+		
+        return false;
+    });
+    $('body').on('click', '#ltbox', function() { 
+        
+        $('#ltbox').toggle();
+    });
+});
+</script>
+
+  </head>
+
+  <body>
+      <div class="site-title">
+          <img class="wsl-logo" src="/wsl.svg" />
+          <span class="wsl-title">
+             Wsl Blog
+          </span>
+      </div>
+    <nav>
+    <p class="sub-title">Adventures in making, arting, exploring, and other things.</p>
+    <div class="menu">
+        <ul>
+          
+              <li><a href="/">Home</a></li>
+          
+              <li><a href="/about/">About</a></li>
+          
+              <li><a href="/categories/">Categories</a></li>
+          
+              <li><a href="/tags/">Tags</a></li>
+          
+              <li><a href="/subscribe/">Subscribe</a></li>
+          
+        </ul>
+    </div>
+    <hr/>
+    </nav>
+
+
+<h1>Categories</h1>
+
+<hr/>
+<ul class="terms">
+  
+  <li>
+    <a href="/categories/invasive-plants">
+      invasive-plants
+    </a>
+    (3)
+  </li>
+  
+  <li>
+    <a href="/categories/programming">
+      programming
+    </a>
+    (17)
+  </li>
+  
+  <li>
+    <a href="/categories/sketching">
+      sketching
+    </a>
+    (1)
+  </li>
+  
+  <li>
+    <a href="/categories/stories">
+      stories
+    </a>
+    (1)
+  </li>
+  
+  <li>
+    <a href="/categories/tales-from-the-field">
+      tales-from-the-field
+    </a>
+    (1)
+  </li>
+  
+  <li>
+    <a href="/categories/trees">
+      trees
+    </a>
+    (3)
+  </li>
+  
+
+</ul>
+
+  <footer>
+  
+
+  
+  <hr/>
+  © <a href="/about/">Z Wilder</a> 2020 | <a href="https://github.com/zwilder/">Github</a>
+  
+  </footer>
+  <div id="ltbox">
+    <p>[Click Anywhere To Close]</p>
+    <div id="content">
+        <img src="#">
+    </div>
+</div>
+
+  </body>
+</html>
+

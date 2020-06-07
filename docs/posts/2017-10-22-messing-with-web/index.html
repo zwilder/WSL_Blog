@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Messing With Web Design - Again | Wsl Blog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="icon" type="image/svg+xml" href="/wsl.svg" />
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Belgrano|Lato&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+jQuery(document).ready(function($) {
+    
+        
+    
+    $('.ltbox-trigger').click(function(e) {
+    	
+        
+		e.preventDefault();
+		
+		
+		var image_href = $(this).attr("href");
+		
+		
+
+		
+		if ($('#ltbox').length > 0) { 
+			
+			
+			$('#content').html('<img src="' + image_href + '" />');
+		   	
+			
+			
+            
+            $('#ltbox').toggle();
+		}
+		
+        return false;
+    });
+    $('body').on('click', '#ltbox', function() { 
+        
+        $('#ltbox').toggle();
+    });
+});
+</script>
+
+  </head>
+
+  <body>
+      <div class="site-title">
+          <img class="wsl-logo" src="/wsl.svg" />
+          <span class="wsl-title">
+             Wsl Blog
+          </span>
+      </div>
+    <nav>
+    <p class="sub-title">Adventures in making, arting, exploring, and other things.</p>
+    <div class="menu">
+        <ul>
+          
+              <li><a href="/">Home</a></li>
+          
+              <li><a href="/about/">About</a></li>
+          
+              <li><a href="/categories/">Categories</a></li>
+          
+              <li><a href="/tags/">Tags</a></li>
+          
+              <li><a href="/subscribe/">Subscribe</a></li>
+          
+        </ul>
+    </div>
+    <hr/>
+    </nav>
+
+<div class="article-meta">
+    <div class="title"><span>Messing With Web Design - Again</span></div>
+
+    <div>
+        
+          <span class="author">By Zach Wilder
+          </span>
+        
+        
+            <span class="date"> : Sunday, October 22 2017</span>
+        
+    </div>
+</div>
+
+<hr/>
+
+<main>
+<p>Ok, so it turns out I still can&rsquo;t stand using a premade theme. I decided to look again at Hugo themes, and found <a href="https://xmin.yihui.name/">XMin</a>. Clean, simple, and
+a good basic idea of what I wanted this blog to look like. Cracked open the source code and was playing around&hellip; one thing led to another and
+this is what I ended up with.</p>
+<p>Really enjoying working with Hugo - haven&rsquo;t even played with any of the cool powerful features that it has, but I am very impressed with how easy it is
+to modify and change things. Everything is laid out in a good, logical sense which makes it much easier to customize and play around with things.</p>
+<p>Things that still need work:</p>
+<ul>
+<li>
+<p>I&rsquo;m not sure about the monospace font for the titles and headers - I like it, but that doesn&rsquo;t mean it looks good! Ha.</p>
+</li>
+<li>
+<p>The <a href="/tags">Tags</a> page looks off. Not sure what to do with that.</p>
+</li>
+<li>
+<p>Maybe write some sort of intro thing for the home page.</p>
+</li>
+</ul>
+<p>Most likely I&rsquo;ll end up redoing this whole layout&hellip; But this was the first time I&rsquo;ve messed around with web design stuff and had a bit of success and didn&rsquo;t
+pull out too many hairs! Thanks Hugo!</p>
+
+</main>
+<hr/>
+<div style="width:100%;text-align:center;">
+    
+    <span>
+        
+        <a href = "/posts/2017-10-15-yet-another-blog-attempt/">&laquo;&laquo; Previous Post</a>
+    </span>
+    
+    
+    <span>
+        |
+        
+        <a href = "/posts/2018-06-20-the-roguelike-tutorial-week1/">Next Post &raquo;&raquo;</a>
+    </span>
+    
+</div>
+<br/><br/>
+<a id="comments"></a>
+
+
+<br/><br/>
+  <footer>
+  
+
+  
+  <hr/>
+  © <a href="/about/">Z Wilder</a> 2020 | <a href="https://github.com/zwilder/">Github</a>
+  
+  </footer>
+  <div id="ltbox">
+    <p>[Click Anywhere To Close]</p>
+    <div id="content">
+        <img src="#">
+    </div>
+</div>
+
+  </body>
+</html>
+
