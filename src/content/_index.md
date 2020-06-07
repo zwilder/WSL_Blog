@@ -1,3 +1,3 @@
 ---
-Title: "The latest post from Wsl-Blog:"
+Title: "The latest from Wsl-Blog"
 ---
