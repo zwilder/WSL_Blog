@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}" />
+    <link rel="icon" type="image/svg+xml" href="/wsl.svg" />
+    {{ partial "head_custom.html" . }}
+  </head>
+
+  <body>
+      <div class="site-title">
+          <img class="wsl-logo" src="/wsl.svg" />
+          <span class="wsl-title">
+             Wsl Blog
+          </span>
+      </div>
+    <nav>
+    <p class="sub-title">Adventures in making, arting, exploring, and other things.</p>
+    <div class="menu">
+        <ul>
+          {{ range .Site.Menus.main }}
+              <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+    </div>
+    <hr/>
+    </nav>

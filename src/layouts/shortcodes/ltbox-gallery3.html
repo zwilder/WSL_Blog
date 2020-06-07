@@ -1,0 +1,25 @@
+<div id="ltbox-div">
+    <div class="ltbox-gallery-row">
+        {{ if ((.Get `src1`) isset "") }}
+        <div class="ltbox-gallery-col">
+            <a href="{{ .Page.Site.BaseURL }}images/{{ .Get `src1` }}" class="ltbox-trigger" >
+                <img src="{{ .Page.Site.BaseURL }}images/{{ .Get `src1` }}" style="width:100%;" \>
+            </a>
+        </div>
+        {{ end }}
+        {{ if ((.Get `src2`) isset "") }}
+        <div class="ltbox-gallery-col">
+            <a href="{{ .Page.Site.BaseURL }}images/{{ .Get `src2` }}" class="ltbox-trigger" >
+                <img src="{{ .Page.Site.BaseURL }}images/{{ .Get `src2` }}" style="width:100%;" \>
+            </a>
+        </div>
+        {{ end }}
+        {{ if ((.Get `src3`) isset "") }}
+        <div class="ltbox-gallery-col">
+            <a href="{{ .Page.Site.BaseURL }}images/{{ .Get `src3` }}" class="ltbox-trigger" >
+                <img src="{{ .Page.Site.BaseURL }}images/{{ .Get `src3` }}" style="width:100%;" \>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>
