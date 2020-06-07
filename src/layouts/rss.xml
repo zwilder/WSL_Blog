@@ -29,7 +29,7 @@
       </image>
       {{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }} - &lt;a href="{{ .Permalink }}"&gt;[Read more]&lt;/a&gt;</description>
+      <description>{{ .Summary | html }} - &lt;a href="https://www.wsl-blog.com{{ .Permalink }}"&gt;[Read more]&lt;/a&gt;</description>
     </item>
     {{ end }}
   </channel>
