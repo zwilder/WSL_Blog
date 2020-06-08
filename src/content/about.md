@@ -27,8 +27,10 @@ something myself!"
 
 I built this site, using [Hugo](https://gohugo.io), a fantastic static blog
 generator. The theme is a heavily modified version of
-[XMin](https://github.com/yihui/hugo-xmin).  The source for the site is on
-[GitHub](https://github.com/zwilder/). I do all my work on an old laptop or a
-computer I built running [Arch Linux](https://www.archlinux.org/), writing
-everything in [Vim](https://www.vim.org).  If anything is broken on the site and
-needs fixing please don't hesitate to [email me](mailto:z@wsl-blog.com)!
+[XMin](https://github.com/yihui/hugo-xmin). The lightbox code for the images is
+provided by [Fancybox](https://github.com/fancyapps/fancybox). The source for
+the site is posted on [GitHub](https://github.com/zwilder/WSL_Blog). I do all my
+work on an old laptop or a computer I built running [Arch
+Linux](https://www.archlinux.org/), writing everything in
+[Vim](https://www.vim.org).  If anything is broken on the site and needs fixing
+please don't hesitate to [email me](mailto:z@wsl-blog.com)!
