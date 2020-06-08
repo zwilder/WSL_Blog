@@ -1,0 +1,37 @@
+<div id="ltbox-div">
+    <div class="ltbox-gallery-row">
+        {{ if ((.Get `src1`) isset "") }}
+        <div class="ltbox-gallery-col">
+            <a data-fancybox="gallery{{if (( .Get `id` ))}}-{{ .Get `id`}}{{ end }}"
+               data-loop="true"
+               data-buttons='["zoom","fullScreen","close"]'
+               data-animation-effect="false" href="{{ .Page.Site.BaseURL }}images/{{.Get `src1` }}">
+                <img style="width:100%;" class="{{if .Get `nsfw`}}nsfw{{ end }}"
+                src="{{ .Page.Site.BaseURL }}images/{{ .Get `src1` }}">
+            </a>
+        </div>
+        {{ end }}
+        {{ if ((.Get `src2`) isset "") }}
+        <div class="ltbox-gallery-col">
+            <a data-fancybox="gallery{{if (( .Get `id` ))}}-{{ .Get `id`}}{{ end }}"
+               data-loop="true"
+               data-buttons='["zoom","fullScreen","close"]'
+               data-animation-effect="false" href="{{ .Page.Site.BaseURL }}images/{{.Get `src2` }}">
+                <img style="width:100%;" class="{{if .Get `nsfw`}}nsfw{{ end }}"
+                src="{{ .Page.Site.BaseURL }}images/{{ .Get `src2` }}">
+            </a>
+        </div>
+        {{ end }}
+        {{ if ((.Get `src3`) isset "") }}
+        <div class="ltbox-gallery-col">
+            <a data-fancybox="gallery{{if (( .Get `id` ))}}-{{ .Get `id`}}{{ end }}"
+               data-buttons='["zoom","fullScreen","close"]'
+               data-loop="true"
+               data-animation-effect="false" href="{{ .Page.Site.BaseURL }}images/{{.Get `src3` }}">
+                <img style="width:100%;" class="{{if .Get `nsfw`}}nsfw{{ end }}"
+                src="{{ .Page.Site.BaseURL }}images/{{ .Get `src3` }}">
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div>

@@ -1,0 +1,5 @@
+<div id="ltbox-div">
+    <a data-fancybox data-buttons='["zoom","fullScreen","close"]' data-animation-effect="false" href="{{ .Page.Site.BaseURL }}images/{{ .Get `src` }}">
+        <img class="ltbox-thumb{{if .Get `nsfw`}} nsfw{{ end }}" src="{{ .Page.Site.BaseURL }}images/{{ .Get `src` }}">
+    </a>
+</div>
