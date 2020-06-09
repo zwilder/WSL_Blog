@@ -8,6 +8,7 @@ tags:
   - C++
   - Roguelike
   - Barbarian!
+assets: "2018-07-02"
 ---
 
 I decided to split the third week into two separate posts so that I wouldn't ramble on as long as last week. Over the past week I continued fighting the BSP dungeon
@@ -196,14 +197,16 @@ that the correct answer is to terminate right after adding the tile to the resul
 After all that - here's a couple of videos!
 
 The first video highlights the visible cells a nice light yellow color, and then shows the explored cells.
-{{< video mp4="/assets/2018-07-02/FoV_highlight.mp4" >}}
+{{< fancybox_mv src="FoV_highlight.mp4" >}}
 
 The next video shows the results without doing anything fancy, just showing explored tiles. I think this actually looks and reads better than highlighting the 
 "visible" cells.
-{{< video mp4="/assets/2018-07-02/FoV.mp4" >}}
+
+{{< fancybox_mv src="FoV.mp4" >}}
 
 After a bit of tweaking, ending up somewhere in the middle of the two previous videos ends up with this:
-{{< video mp4="/assets/2018-07-02/FoV_final.mp4" >}}
+
+{{< fancybox_mv src="FoV_final.mp4" >}}
 
 Also, you might have noticed that the range of vision looks more round in the last video - I was calculating vision as a rectangle around the player, and changed
 to a circle between the two videos. Also, in addition to changing the background of the lit cells to a light yellow, I changed the foreground to a dark grey, and
@@ -211,7 +214,8 @@ removed the highlight from the walls in the visible range. A fun idea for later 
 that decreases as the game moves on...
 
 Some more tweaking, and color adjustments yields:
-{{< video mp4="/assets/2018-07-02/FoV_final2.mp4" >}}
+
+{{< fancybox_mv src="FoV_final2.mp4" >}}
 
 ---
 

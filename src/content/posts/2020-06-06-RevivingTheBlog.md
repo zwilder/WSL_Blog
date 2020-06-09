@@ -9,6 +9,7 @@ Tags:
   - Art
   - Pen and Ink
 Thumb: "2020-06-06-RevivingTheBlog/TrailerSketching_w.jpg"
+assets: "2020-06-06-RevivingTheBlog"
 ---
 
 At the time of writing this, I'm sitting in a small camper trailer just off the
@@ -58,7 +59,7 @@ that the best way to start was to just... start. One of the most conspicuous
 plants around there was this cool looking, smooth reddish bark shrub with mellow
 sweet smelling flowers that were pleasant to walk by.
 
-{{<fancybox_img src="2020-06-06-RevivingTheBlog/Manzanita_w.jpg">}}
+{{<fancybox_img src="Manzanita_w.jpg">}}
 
 I busted out my pen and started doodling - nature journal style. I packed my
 sketchbook in it's case I made, loaded with an assortment of pencils, a couple
@@ -82,9 +83,9 @@ exploring, and attempt to sketch the coast.
 
 {{<fancybox_gallery 
  id=1
- src1="2020-06-06-RevivingTheBlog/Bastendorff1_w.jpg"
- src2="2020-06-06-RevivingTheBlog/Bastendorff2_w.jpg"
- src3="2020-06-06-RevivingTheBlog/Bastendorff3_w.jpg"
+ src1="Bastendorff1_w.jpg"
+ src2="Bastendorff2_w.jpg"
+ src3="Bastendorff3_w.jpg"
 >}}
 
 My first attempts at sketching the coast made me realize a couple of things,
@@ -101,7 +102,7 @@ position myself to sketch the bridge, so I went exploring around it instead.
 There was a cool path (overgrown with blackberry of course) that went
 under the bridge.
 
-{{<fancybox_img src="2020-06-06-RevivingTheBlog/SandyCreek_w.jpg">}}
+{{<fancybox_img src="SandyCreek_w.jpg">}}
 
 I figured out a couple things here, trying to recreate "brush strokes" with the
 pen to suggest foliage works better than trying to draw foliage. Water was still
@@ -115,8 +116,8 @@ bay.
 
 {{<fancybox_gallery
  id=2
- src1="2020-06-06-RevivingTheBlog/WinchesterBay_w.jpg"
- src3="2020-06-06-RevivingTheBlog/CeresAndRelentless_w.jpg"
+ src1="WinchesterBay_w.jpg"
+ src3="CeresAndRelentless_w.jpg"
 >}}
 
 I took a trip the next day, again up the coast, with the goal of sketching waves; I was
@@ -129,8 +130,8 @@ pushes and pulls on the paper.
 
 {{<fancybox_gallery
  id=3
- src1="2020-06-06-RevivingTheBlog/CarlGWashburne_w.jpg"
- src3="2020-06-06-RevivingTheBlog/BobsCreek_w.jpg"
+ src1="CarlGWashburne_w.jpg"
+ src3="BobsCreek_w.jpg"
 >}}
 
 During the work week I was sitting in my trailer, looking at my ocean sketches -
@@ -144,9 +145,9 @@ the ink? The Pelikan ink is not waterproof, what would happen?
 
 {{<fancybox_gallery
  id=4
- src1="2020-06-06-RevivingTheBlog/WaveDoodle1_w.jpg"
- src2="2020-06-06-RevivingTheBlog/WaveDoodle2_w.jpg"
- src3="2020-06-06-RevivingTheBlog/WaveDoodle3_w.jpg"
+ src1="WaveDoodle1_w.jpg"
+ src2="WaveDoodle2_w.jpg"
+ src3="WaveDoodle3_w.jpg"
 >}}
 
 Well, the ink explodes into beautiful shades of gray is what happens. Fascinated
@@ -155,8 +156,8 @@ and see what happened when I hit it with the water brush.
 
 {{<fancybox_gallery
  id=5
- src1="2020-06-06-RevivingTheBlog/Yachats1_w.jpg"
- src3="2020-06-06-RevivingTheBlog/Yachats2_w.jpg"
+ src1="Yachats1_w.jpg"
+ src3="Yachats2_w.jpg"
 >}}
 
 I am super excited about this - I can paint with the grays in the ink, blur out
@@ -165,8 +166,8 @@ looks (in my opinion) pretty darn cool.
 
 {{<fancybox_gallery
  id=6
- src1="2020-06-06-RevivingTheBlog/SealPoint_w.jpg"
- src3="2020-06-06-RevivingTheBlog/WaveDoodle4_w.jpg"
+ src1="SealPoint_w.jpg"
+ src3="WaveDoodle4_w.jpg"
 >}}
 
 This sketch of Seal Point is probably my favorite thing I've ever art-ed. I was sitting on
@@ -183,9 +184,9 @@ nature journaling - found this bizarre plant and some cool fungi.
 
 {{<fancybox_gallery
  id=7
- src1="2020-06-06-RevivingTheBlog/EelLake_w.jpg"
- src2="2020-06-06-RevivingTheBlog/IndianPipe_w.jpg"
- src3="2020-06-06-RevivingTheBlog/Mushrooms_w.jpg"
+ src1="EelLake_w.jpg"
+ src2="IndianPipe_w.jpg"
+ src3="Mushrooms_w.jpg"
 >}}
 
 The balance between the background and foreground kept bothering me, so that
@@ -195,8 +196,8 @@ were attempts at this.
 
 {{<fancybox_gallery
  id=8
- src1="2020-06-06-RevivingTheBlog/Mystic_w.jpg"
- src3="2020-06-06-RevivingTheBlog/RailroadOverUmpqua_w.jpg"
+ src1="Mystic_w.jpg"
+ src3="RailroadOverUmpqua_w.jpg"
 >}}
 
 After my attempt at drawing a bridge (damn you perspective!) I went back to the
@@ -205,7 +206,7 @@ month. The shipyard in the background was a fascinating jumble of old machines,
 new boats, and boat parts. A bunch of seagulls flew in right as I was about to
 drive off and I knew I just had to throw a couple of them in there. 
 
-{{<fancybox_img src="2020-06-06-RevivingTheBlog/HarborLights_w.jpg">}}
+{{<fancybox_img src="HarborLights_w.jpg">}}
 
 One of the cool things I realized over this past month of increased sketching
 was how the sketchbook became a journal of the places I visited and the things I
@@ -216,8 +217,8 @@ it's there for and it's neat looking at my doodles over the last month.
 
 {{<fancybox_gallery
  id=9
- src1="2020-06-06-RevivingTheBlog/CapeArago_w.jpg"
- src3="2020-06-06-RevivingTheBlog/TrailerSketching_w.jpg"
+ src1="CapeArago_w.jpg"
+ src3="TrailerSketching_w.jpg"
 >}}
 
 Well this officially is the longest, most photo intensive blog post I have ever

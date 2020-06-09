@@ -8,7 +8,7 @@ tags:
   - C++
   - Roguelike
   - Barbarian!
-
+assets: "2018-06-25"
 ---
 
 So this week's goal is to finish [part 2](http://rogueliketutorials.com/libtcod/2) and [part 3](http://rogueliketutorials.com/libtcod/3) of the tutorial - I
@@ -22,7 +22,7 @@ to, and is read/translated into graphics to be
 displayed by SFML. Well, the console is a grid of say, 80x50 (960px x 600px). Each cell in the grid has a glyph that needs to be translated and rendered. During 
 engine initialization, it loads one texture (image) as the spritesheet - in this case it's a .png image of the CP437 font.
 
-{{< figure src="/assets/2018-06-25/cp437_12x12.png" >}} 
+{{< fancybox_img src="cp437_12x12.png" >}} 
 
 Now what Engine::Draw() did originally was make a new SFML sprite for each cell, with the position set to the font size multiplied by the cell x,y coordinates.
 Seemed simple enough, and it worked - but that's 4000 sprites created and destroyed EVERY time Draw() is called. The next iteration created two arrays of sprites
@@ -37,7 +37,7 @@ not like this - but that was okay, since things were working for now.
 
 I finished part 3 of the tutorial, which created a fairly simple dungeon generator, which looked like this:
 
-{{< figure src="/assets/2018-06-25/Screenshot1.png" >}}
+{{< fancybox_img src="Screenshot1.png" >}}
 
 Pretty neat! However, one of the main design considerations for this game is **completely** divorcing from the rendering - and in order to do so during this part
 I created two new classes [wsl::Rect](https://github.com/zwilder/Barbarian/blob/master/include/rect.hpp) and [wsl::Vector](https://github.com/zwilder/Barbarian/blob/master/include/vector.hpp). Rect is a rectangle, defined by passing an x,y coordinate and a width/height, a pretty simple class.
@@ -184,11 +184,11 @@ We need to check every node as we create it, so a vector containing the current 
 Nodes in it, we check a Node, split it if possible, and if not add it to the leaves and remove it from the growth vector. This leaves us with a vector of leaves
 ready to put some rooms in! Here's a picture of what a result can look like with the minimum node size set to '8' on an 80x50 console.
 
-{{< figure src="/assets/2018-06-25/Screenshot2.png" >}}
+{{< fancybox_img src="Screenshot2.png" >}}
 
 In each of those rectangles a smaller rectangle is then randomly placed, which gives something like this:
 
-{{< figure src="/assets/2018-06-25/Screenshot3.png" >}}
+{{< fancybox_img src="Screenshot3.png" >}}
 
 Unfortunately... After all this fun work, if each room is connected to the room in the sibling node working our way up the tree, it ends up with a single
 path connecting the dungeon! If instead the rooms are connected Rogue style (choosing a random x,y point on each room to connect) or tutorial style (connecting

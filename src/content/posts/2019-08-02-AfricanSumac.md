@@ -14,9 +14,10 @@ Tags:
   - Rhus lancea
   - Anacardiaceae
 Thumb: "2019-08-02-AfricanSumac/GlamourShot6.jpg"
+assets: "2019-08-02-AfricanSumac"
 ---
 
-{{<ltbox-gallery3 src1="2019-08-02-AfricanSumac/GlamourShot5.jpg" src2="2019-08-02-AfricanSumac/GlamourShot2.jpg" src3="2019-08-02-AfricanSumac/GlamourShot7.jpg">}}
+{{<fancybox_gallery src1="GlamourShot5.jpg" src2="GlamourShot2.jpg" src3="GlamourShot7.jpg">}}
 
 # Background
 
@@ -35,7 +36,7 @@ provided indigenous groups with a valuable source of tannin for leather making.
 The sumac's hard wood was used for making bows and weaponry, and also as
 fenceposts - and it's easy to see why when looking at the long, slender water sprouts.
 
-{{<ltbox src="2019-08-02-AfricanSumac/Sprouts.jpg">}}
+{{<fancybox_img src="Sprouts.jpg">}}
 
 The African sumac is in the Anarcadiacea family, which is the same family as
 cashews, mangos, pistachios, and poison ivy. I've read in various online sources
@@ -58,7 +59,7 @@ start producing pods as rapidly. If there is a regular source of water, like a
 drainage ditch or desert wash, these trees will establish themselves and easily
 crowd out the much slower growing native vegetation.
 
-{{<ltbox src="2019-08-02-AfricanSumac/GlamourShot1.jpg">}}
+{{<fancybox_img src="GlamourShot1.jpg">}}
 
 # Identification
 
@@ -67,7 +68,7 @@ to be between 20ft and 25ft (6 to 8m) tall. It will, however, with regular
 water (like in a grassy lawn or with flood irrigation) grow **much** larger -
 easily surpassing 30ft (9m) tall.
 
-{{<ltbox-gallery3 src1="2019-08-02-AfricanSumac/GlamourShot6.jpg" src3="2019-08-02-AfricanSumac/GlamourShot4.jpg">}}
+{{<fancybox_gallery src1="GlamourShot6.jpg" src3="GlamourShot4.jpg">}}
 
 The easiest way I've found to identify this tree is by its leaves. It is by
 far the most common tree in the valley with trifoliate leaves, which to me look
@@ -83,7 +84,7 @@ terminal). The flowers have a distinct fragrence, sweet and warm. The seeds are
 technically a drupe, and are usually seen as clusters of white peppercorns
 (don't eat them!).
 
-{{<ltbox-gallery3 src1="2019-08-02-AfricanSumac/Bark.jpg" src3="2019-08-02-AfricanSumac/SeedsOnTree.jpg">}}
+{{<fancybox_gallery src1="Bark.jpg" src3="SeedsOnTree.jpg">}}
 
 There aren't too many trees that look similar to this tree - although at a
 casual glance it could be mistaken for a willow acacia (*Acacia salicinia*). The
@@ -92,7 +93,7 @@ sumac - but that's about it. Willow acacias are usually much taller, and have a
 much more upright form than the usual splayed out form of the African sumac.
 
 
-{{<ltbox-gallery3 src1="2019-08-02-AfricanSumac/WillowAcacia.jpg" src3="2019-08-02-AfricanSumac/WALeaves.jpg">}}
+{{<fancybox_gallery src1="WillowAcacia.jpg" src3="WALeaves.jpg">}}
 
 Sources and further reading:
 

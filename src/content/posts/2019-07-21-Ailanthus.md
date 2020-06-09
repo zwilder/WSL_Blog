@@ -14,9 +14,10 @@ Tags:
   - tree of heaven
   - Simaroubaceae
 Thumb: "2019-07-21-Ailanthus/GlamourShot1.jpg"
+assets: "2019-07-21-Ailanthus"
 ---
 
-{{<ltbox-gallery3 src1="2019-07-21-Ailanthus/GlamourShot1.jpg" src3="2019-07-21-Ailanthus/GlamourShot2.jpg">}}
+{{<fancybox_gallery src1="GlamourShot1.jpg" src3="GlamourShot2.jpg">}}
 
 # Background
 
@@ -27,7 +28,7 @@ the gold rush. This tree is common in urban areas and very tolerant of pollution
 and poor soil conditions. You can see tree of heaven in many mining towns in
 Arizona, some say it is holding up the old copper mining town of Jerome.
 
-{{<ltbox src="2019-07-21-Ailanthus/Jerome.jpg">}}
+{{<fancybox_img src="Jerome.jpg">}}
 
 In Phoenix I've come across ailanthus in older neighborhoods and I can see its
 invasive nature by the numerous amount of small trees and sprouts surrounding
@@ -35,7 +36,7 @@ the larger trees. Tree of heaven is dioecious (trees are either male or female),
 the male flowers have a very offensive odor. Crushed leaflets smell like peanuts
 to some.
 
-{{<ltbox src="2019-07-21-Ailanthus/GlamourShot3.jpg">}}
+{{<fancybox_img src="GlamourShot3.jpg">}}
 
 The numerous seeds produced by ailanthus are only viable for 1 year and they
 spread by wind, water, birds, and humans. Established trees have long shallow
@@ -55,8 +56,8 @@ reddish-brown stem. These thick twigs are usually how I spot a tree of heaven,
 and I look for the large shield-shaped leaf scar. The bark varies and can be
 smooth to riged, sometimes appearing gray with lighter colored stripes.
 
-{{<ltbox-gallery3 src2="2019-07-21-Ailanthus/Leaf.jpg"
-src1="2019-07-21-Ailanthus/Scar.jpg" src3="2019-07-21-Ailanthus/Bark.jpg">}}
+{{<fancybox_gallery src2="Leaf.jpg"
+src1="Scar.jpg" src3="Bark.jpg">}}
 
 Trees often mistaken for tree of heaven are
 [pecan](http://www.public.asu.edu/~camartin/plants/Plant%20html%20files/pecan.html)

@@ -8,6 +8,7 @@ tags:
     - C++
     - Roguelike
     - Barbarian!
+assets: "2018-08-09"
 ---
 
 I didn't do a lot of coding over the last week, but I did finish the
@@ -189,14 +190,14 @@ player to select what slot they want to equip items to - so they can use
 one handed weapons in each hand like a true barbarian. For now, small
 weapons like the dagger are automatically equipped to the off hand.
 
-{{< figure src="/assets/2018-08-09/EquippedItems.png" >}}
+{{< fancybox_img src="EquippedItems.png" >}}
 
 I also need to sort the inventory, displaying equipped items at the top.
 Actually, equipped items probably won't show up in the inventory at all,
 and just show up in the equipment screen of the future UI. Here's a
 quick gameplay video of what I ended up with after part 13:
 
-{{< video mp4="/assets/Various/Part13.mp4" >}}
+{{< fancybox_mv src="Part13.mp4" >}}
 
 ---
 

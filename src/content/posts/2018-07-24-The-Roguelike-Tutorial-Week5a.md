@@ -9,6 +9,7 @@ tags:
     - Makefile
     - Roguelike
     - Barbarian!
+assets: "2018-07-24"
 ---
 
 Another very productive week for this project! Although I was unable to
@@ -30,7 +31,7 @@ instead of 16x16). Adding graphical tiles in will be a chore anyways, so
 I’ll just go ahead and not worry about it now. This is what the game
 looks like now:
 
-{{< figure src="/assets/2018-07-24/NewFont.png" >}}
+{{< fancybox_img src="NewFont.png" >}}
 
 Pretty slick! After changing to a nice 9x14 font, I decided to tackle
 another minor improvement that makes a huge impact: fullscreen mode!
@@ -176,7 +177,7 @@ flow as well as I wanted. I really like the detailed screens in ADOM,
 and will probably move the UI to look more inspired by that later. For
 now, the inventory screen is super simple, super basic, and super clean.
 
-{{< figure src="/assets/2018-07-24/Inventory.png" >}}
+{{< fancybox_img src="Inventory.png" >}}
 
 I actually really like how it looks right now, its not obtrusive and
 it’s functional. Well, the UI overhaul is already on the To-Do list, so
@@ -222,7 +223,7 @@ instead.
 Here’s a super cool gameplay video showing all the neat things added in
 the past week!
 
-{{< video mp4="/assets/2018-07-24/Part8.mp4" >}}
+{{< fancybox_mv src="Part8.mp4" >}}
 
 ---
 

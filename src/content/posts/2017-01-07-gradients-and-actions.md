@@ -7,6 +7,7 @@ Categories:
 tags:
   - C++
   - Roguelike
+assets: 2017-01-07-gradients-and-actions
 ---
 
 Over the past couple of weeks I've been working on simplifying the code for my roguelike project - heavily inspired by one of my favorite books on my shelf,
@@ -100,9 +101,10 @@ man is it cool.
 
 Here's what I ended up with, starting with just a picture of the noise (check out the sweet dynamically created gradient from white to red!) and then a picture of the resulting map after the terrain is applied:
 
-{{< figure src="/assets/2017-01-07-gradients-and-actions/heatmap.png" >}}
-
-{{< figure src="/assets/2017-01-07-gradients-and-actions/terrain.png" >}}
+{{< fancybox_gallery
+id=1
+src1="heatmap.png" 
+src2="terrain.png" >}}
 
 Neat right? I'm not entirely happy with it yet, but it's a heck of a start! Applying the terrain to the heatmap was the tricky part. The perlin noise function returns numbers from -1 to 1, which I normalized (by dividing by two
 and adding 0.5) to numbers from 0 to 1. I then took those numbers, multiplied them by 255, and forced the numbers to an integer. I then took the maximum number (highest 'elevation') and stored that, then multiplied the max elevation by 0.6 to find the waterline (so 60% of the map is underwater).

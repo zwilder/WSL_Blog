@@ -8,6 +8,7 @@ tags:
     - C++
     - Roguelike
     - Barbarian!
+assets: "2018-07-30"
 ---
 
 Oh man, this has been a super exciting and productive week - this
@@ -81,7 +82,7 @@ The code looks a bit different in the actual game - just because I
 wanted to reuse the targeting code for a look function. Here’s a short
 video of the result!
 
-{{< video mp4="/assets/2018-07-30/Part9.mp4" >}}
+{{< fancybox_mv src="Part9.mp4" >}}
 
 One of the cool things here is the code to draw the line from the
 character to the cursor when in "target" mode. I spent a good deal of
@@ -149,7 +150,7 @@ the system is identical to what’s used in the Python tutorial.
 With all that done, I figured I would play around in REXpaint and try
 making a title screen for the game:
 
-{{< figure src="/assets/2018-07-30/BarbarianLogo.png" >}}
+{{< fancybox_img src="BarbarianLogo.png" >}}
 
 Super happy with how this turned out - I’m not much of an ASCII artist,
 but I think this looks darn good. One of the things high up on my

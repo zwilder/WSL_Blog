@@ -8,6 +8,7 @@ tags:
     - C++
     - Roguelike
     - Barbarian!
+assets: "2018-09-18"
 ---
 
 One of the big goals for Barbarian and one of the coolest things on my
@@ -142,7 +143,7 @@ chance at 75% initially each time a cell is visited to light it up, and
 change just the background color of the cell to randomly
 orange/yellow/red. This worked, and looked **awesome**. 
 
-{{< video mp4="/assets/Various/Explosions.mp4" >}}
+{{< fancybox_mv src="Explosions.mp4" >}}
 
 I realized after playing around with making things explode that there
 should be a set of frames moving inward towards the origin as well, but
@@ -150,14 +151,14 @@ with a smaller chance of lighting up. Playing around with the numbers I
 found 65%/25% to look pretty darn good. Shortened the duration by a bit
 too to speed things up.
 
-{{< video mp4="/assets/Various/Explosions3.mp4" >}}
+{{< fancybox_mv src="Explosions3.mp4" >}}
 
 I also played with changing the glyph in the explosion tile to a random
 character, which ended up looking sorta cool... but I'm not sure I like
 it. It definitely made the explosion more chunky, and gave it some
 texture.
 
-{{< video mp4="/assets/Various/Explosions2.mp4" >}}
+{{< fancybox_mv src="Explosions2.mp4" >}}
 
 The "final" code for the explosion animation looks like this:
 
