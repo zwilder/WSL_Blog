@@ -279,8 +279,7 @@ So it isn't perfect - I'm sure the iteration through the map cells could be opti
 From here, I decided to see just how 'easily' the maps could be used to implement things like auto-exploration of the map - turns out, it was INCREDIBLY easy. Instead of setting just one goal before generating the map, setting the goal to any unexplored area will cause the player to take the shortest possible route across the map to explore every single tile. Once all the tiles are explored, the goal is changed to the downward staircase, and the player paths quickly there.
 
 And here's a video of the auto-explore in action (I accidently forgot about the cursor when I started recording the screen...):
-<div style="margin: auto; text-align: center; position: relative; width: 100%; font-family: 'Roboto Mono', monospace; overflow: auto;">
-<video style="margin: auto; padding: 1px;" controls src="{{ site.baseurl }}/assets/AutoExplore.mp4" type="video/mp4">Your browser does not support embedded videos!</video>
-</div>
+
+{{< fancybox_mv src="AutoExplore.mp4" tag="Auto Explore Video" >}} 
 
 The next project will be actually using this in the game AI, and adding a 'desire' component for each monster. Of course, this might also be a good time to implement a time/turn tracking system... Or a health system...

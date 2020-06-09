@@ -1,0 +1,8 @@
+<div id="ltbox-div">
+    <a data-fancybox href="{{ .Page.Site.BaseURL }}images/{{ .Get `src` }}">
+        <video width="640" height="320" controls id="myVideo" class="ltbox-thumb">
+            <source src="{{ .Page.Site.BaseURL }}images/{{ .Get `src` }}" type="video/mp4">
+            {{ .Get `tag` }}
+        </video>
+    </a>
+</div>
