@@ -218,41 +218,44 @@ that the cell would get &ldquo;lit up&rdquo; by the blast. I decided to set the
 chance at 75% initially each time a cell is visited to light it up, and
 change just the background color of the cell to randomly
 orange/yellow/red. This worked, and looked <strong>awesome</strong>.</p>
-<video class="video-js" width="640" height="385" controls>
- 
-    <source src="/assets/Various/Explosions.mp4" type="video/mp4">
-    
-    
- 
-Your browser does not support the video tag.
-</video>
+<div id="ltbox-div">
+    <a data-fancybox href="/images/2018-09-18/Explosions.mp4">
+        <video controls id=" id "
+            style="max-width:33%;display: block;margin-left: auto;margin-right:auto;">
+            <source src="/images/2018-09-18/Explosions.mp4" type="video/mp4">
+            
+        </video>
+    </a>
+</div>
 
 <p>I realized after playing around with making things explode that there
 should be a set of frames moving inward towards the origin as well, but
 with a smaller chance of lighting up. Playing around with the numbers I
 found 65%/25% to look pretty darn good. Shortened the duration by a bit
 too to speed things up.</p>
-<video class="video-js" width="640" height="385" controls>
- 
-    <source src="/assets/Various/Explosions3.mp4" type="video/mp4">
-    
-    
- 
-Your browser does not support the video tag.
-</video>
+<div id="ltbox-div">
+    <a data-fancybox href="/images/2018-09-18/Explosions3.mp4">
+        <video controls id=" id "
+            style="max-width:33%;display: block;margin-left: auto;margin-right:auto;">
+            <source src="/images/2018-09-18/Explosions3.mp4" type="video/mp4">
+            
+        </video>
+    </a>
+</div>
 
 <p>I also played with changing the glyph in the explosion tile to a random
 character, which ended up looking sorta cool&hellip; but I&rsquo;m not sure I like
 it. It definitely made the explosion more chunky, and gave it some
 texture.</p>
-<video class="video-js" width="640" height="385" controls>
- 
-    <source src="/assets/Various/Explosions2.mp4" type="video/mp4">
-    
-    
- 
-Your browser does not support the video tag.
-</video>
+<div id="ltbox-div">
+    <a data-fancybox href="/images/2018-09-18/Explosions2.mp4">
+        <video controls id=" id "
+            style="max-width:33%;display: block;margin-left: auto;margin-right:auto;">
+            <source src="/images/2018-09-18/Explosions2.mp4" type="video/mp4">
+            
+        </video>
+    </a>
+</div>
 
 <p>The &ldquo;final&rdquo; code for the explosion animation looks like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cpp" data-lang="cpp">Animation <span style="color:#a6e22e">explosion</span>(wsl<span style="color:#f92672">::</span>Vector2i origin, <span style="color:#66d9ef">int</span> radius)

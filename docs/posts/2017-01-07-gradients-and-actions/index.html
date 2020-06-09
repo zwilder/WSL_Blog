@@ -180,13 +180,33 @@ std<span style="color:#f92672">::</span>vector<span style="color:#f92672">&lt;</
 The code for the noise generating function is just a straight translation of Ken Perlin&rsquo;s <a href="http://mrl.nyu.edu/~perlin/noise">improved noise function</a> which was written in Java. I have no idea the math behind most of this - but
 man is it cool.</p>
 <p>Here&rsquo;s what I ended up with, starting with just a picture of the noise (check out the sweet dynamically created gradient from white to red!) and then a picture of the resulting map after the terrain is applied:</p>
-<figure>
-    <img src="/assets/2017-01-07-gradients-and-actions/heatmap.png"/> 
-</figure>
-
-<figure>
-    <img src="/assets/2017-01-07-gradients-and-actions/terrain.png"/> 
-</figure>
+<div id="ltbox-div">
+    <div class="ltbox-gallery-row">
+        
+        <div class="ltbox-gallery-col">
+            <a data-fancybox="gallery-1"
+               data-loop="true"
+               data-buttons='["zoom","fullScreen","close"]'
+               data-animation-effect="false" href="/images/2017-01-07-gradients-and-actions/heatmap.png">
+                <img style="width:100%;" class=""
+                     src="/images/2017-01-07-gradients-and-actions/heatmap.png">
+            </a>
+        </div>
+        
+        
+        <div class="ltbox-gallery-col">
+            <a data-fancybox="gallery-1"
+               data-loop="true"
+               data-buttons='["zoom","fullScreen","close"]'
+               data-animation-effect="false" href="/images/2017-01-07-gradients-and-actions/terrain.png">
+                <img style="width:100%;" class=""
+                     src="/images/2017-01-07-gradients-and-actions/terrain.png">
+            </a>
+        </div>
+        
+        
+    </div>
+</div>
 
 <p>Neat right? I&rsquo;m not entirely happy with it yet, but it&rsquo;s a heck of a start! Applying the terrain to the heatmap was the tricky part. The perlin noise function returns numbers from -1 to 1, which I normalized (by dividing by two
 and adding 0.5) to numbers from 0 to 1. I then took those numbers, multiplied them by 255, and forced the numbers to an integer. I then took the maximum number (highest &lsquo;elevation&rsquo;) and stored that, then multiplied the max elevation by 0.6 to find the waterline (so 60% of the map is underwater).

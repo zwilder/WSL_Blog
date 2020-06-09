@@ -118,9 +118,11 @@ tiles easily, I’d have to make the tiles in a strange size (ie 9x14
 instead of 16x16). Adding graphical tiles in will be a chore anyways, so
 I’ll just go ahead and not worry about it now. This is what the game
 looks like now:</p>
-<figure>
-    <img src="/assets/2018-07-24/NewFont.png"/> 
-</figure>
+<div id="ltbox-div">
+    <a data-fancybox data-buttons='["zoom","fullScreen","close"]' data-animation-effect="false" href="/images/2018-07-24/NewFont.png">
+        <img class="ltbox-thumb" src="/images/2018-07-24/NewFont.png">
+    </a>
+</div>
 
 <p>Pretty slick! After changing to a nice 9x14 font, I decided to tackle
 another minor improvement that makes a huge impact: fullscreen mode!
@@ -251,9 +253,11 @@ wanted the game UI to look like in REXpaint, but thing’s didn’t really
 flow as well as I wanted. I really like the detailed screens in ADOM,
 and will probably move the UI to look more inspired by that later. For
 now, the inventory screen is super simple, super basic, and super clean.</p>
-<figure>
-    <img src="/assets/2018-07-24/Inventory.png"/> 
-</figure>
+<div id="ltbox-div">
+    <a data-fancybox data-buttons='["zoom","fullScreen","close"]' data-animation-effect="false" href="/images/2018-07-24/Inventory.png">
+        <img class="ltbox-thumb" src="/images/2018-07-24/Inventory.png">
+    </a>
+</div>
 
 <p>I actually really like how it looks right now, its not obtrusive and
 it’s functional. Well, the UI overhaul is already on the To-Do list, so
@@ -292,14 +296,15 @@ code for dropping an item is similar, except it calls <code>Entity::drop()</code
 instead.</p>
 <p>Here’s a super cool gameplay video showing all the neat things added in
 the past week!</p>
-<video class="video-js" width="640" height="385" controls>
- 
-    <source src="/assets/2018-07-24/Part8.mp4" type="video/mp4">
-    
-    
- 
-Your browser does not support the video tag.
-</video>
+<div id="ltbox-div">
+    <a data-fancybox href="/images/2018-07-24/Part8.mp4">
+        <video controls id=" id "
+            style="max-width:33%;display: block;margin-left: auto;margin-right:auto;">
+            <source src="/images/2018-07-24/Part8.mp4" type="video/mp4">
+            
+        </video>
+    </a>
+</div>
 
 <hr>
 <p>My goal for the next week is to finish parts 9-11. I think I will tackle

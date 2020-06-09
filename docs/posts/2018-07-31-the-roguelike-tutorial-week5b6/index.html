@@ -165,14 +165,15 @@ position. Neat!</p>
 <p>The code looks a bit different in the actual game - just because I
 wanted to reuse the targeting code for a look function. Here’s a short
 video of the result!</p>
-<video class="video-js" width="640" height="385" controls>
- 
-    <source src="/assets/2018-07-30/Part9.mp4" type="video/mp4">
-    
-    
- 
-Your browser does not support the video tag.
-</video>
+<div id="ltbox-div">
+    <a data-fancybox href="/images/2018-07-30/Part9.mp4">
+        <video controls id=" id "
+            style="max-width:33%;display: block;margin-left: auto;margin-right:auto;">
+            <source src="/images/2018-07-30/Part9.mp4" type="video/mp4">
+            
+        </video>
+    </a>
+</div>
 
 <p>One of the cool things here is the code to draw the line from the
 character to the cursor when in &ldquo;target&rdquo; mode. I spent a good deal of
@@ -229,9 +230,11 @@ the system is identical to what’s used in the Python tutorial.</p>
 <hr>
 <p>With all that done, I figured I would play around in REXpaint and try
 making a title screen for the game:</p>
-<figure>
-    <img src="/assets/2018-07-30/BarbarianLogo.png"/> 
-</figure>
+<div id="ltbox-div">
+    <a data-fancybox data-buttons='["zoom","fullScreen","close"]' data-animation-effect="false" href="/images/2018-07-30/BarbarianLogo.png">
+        <img class="ltbox-thumb" src="/images/2018-07-30/BarbarianLogo.png">
+    </a>
+</div>
 
 <p>Super happy with how this turned out - I’m not much of an ASCII artist,
 but I think this looks darn good. One of the things high up on my

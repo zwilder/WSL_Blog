@@ -110,9 +110,11 @@ fact from previous projects this will make save files <strong>much</strong> easi
 to, and is read/translated into graphics to be
 displayed by SFML. Well, the console is a grid of say, 80x50 (960px x 600px). Each cell in the grid has a glyph that needs to be translated and rendered. During
 engine initialization, it loads one texture (image) as the spritesheet - in this case it&rsquo;s a .png image of the CP437 font.</p>
-<figure>
-    <img src="/assets/2018-06-25/cp437_12x12.png"/> 
-</figure>
+<div id="ltbox-div">
+    <a data-fancybox data-buttons='["zoom","fullScreen","close"]' data-animation-effect="false" href="/images/2018-06-25/cp437_12x12.png">
+        <img class="ltbox-thumb" src="/images/2018-06-25/cp437_12x12.png">
+    </a>
+</div>
 
 <p>Now what Engine::Draw() did originally was make a new SFML sprite for each cell, with the position set to the font size multiplied by the cell x,y coordinates.
 Seemed simple enough, and it worked - but that&rsquo;s 4000 sprites created and destroyed EVERY time Draw() is called. The next iteration created two arrays of sprites
@@ -124,9 +126,11 @@ the texture and then change each cell&rsquo;s sprite location in that array! Fur
 use one sprite, updating it&rsquo;s position and rectangle before drawing it, since I only clear the render surface before drawing the first time? Well, SFML just did
 not like this - but that was okay, since things were working for now.</p>
 <p>I finished part 3 of the tutorial, which created a fairly simple dungeon generator, which looked like this:</p>
-<figure>
-    <img src="/assets/2018-06-25/Screenshot1.png"/> 
-</figure>
+<div id="ltbox-div">
+    <a data-fancybox data-buttons='["zoom","fullScreen","close"]' data-animation-effect="false" href="/images/2018-06-25/Screenshot1.png">
+        <img class="ltbox-thumb" src="/images/2018-06-25/Screenshot1.png">
+    </a>
+</div>
 
 <p>Pretty neat! However, one of the main design considerations for this game is <strong>completely</strong> divorcing from the rendering - and in order to do so during this part
 I created two new classes <a href="https://github.com/zwilder/Barbarian/blob/master/include/rect.hpp">wsl::Rect</a> and <a href="https://github.com/zwilder/Barbarian/blob/master/include/vector.hpp">wsl::Vector</a>. Rect is a rectangle, defined by passing an x,y coordinate and a width/height, a pretty simple class.
@@ -252,14 +256,18 @@ horizontally the left/right child are on the left and right of the node. If it&r
 We need to check every node as we create it, so a vector containing the current nodes <code>growth</code> is created and root is added to it. Then, while the growth vector has
 Nodes in it, we check a Node, split it if possible, and if not add it to the leaves and remove it from the growth vector. This leaves us with a vector of leaves
 ready to put some rooms in! Here&rsquo;s a picture of what a result can look like with the minimum node size set to &lsquo;8&rsquo; on an 80x50 console.</p>
-<figure>
-    <img src="/assets/2018-06-25/Screenshot2.png"/> 
-</figure>
+<div id="ltbox-div">
+    <a data-fancybox data-buttons='["zoom","fullScreen","close"]' data-animation-effect="false" href="/images/2018-06-25/Screenshot2.png">
+        <img class="ltbox-thumb" src="/images/2018-06-25/Screenshot2.png">
+    </a>
+</div>
 
 <p>In each of those rectangles a smaller rectangle is then randomly placed, which gives something like this:</p>
-<figure>
-    <img src="/assets/2018-06-25/Screenshot3.png"/> 
-</figure>
+<div id="ltbox-div">
+    <a data-fancybox data-buttons='["zoom","fullScreen","close"]' data-animation-effect="false" href="/images/2018-06-25/Screenshot3.png">
+        <img class="ltbox-thumb" src="/images/2018-06-25/Screenshot3.png">
+    </a>
+</div>
 
 <p>Unfortunately&hellip; After all this fun work, if each room is connected to the room in the sibling node working our way up the tree, it ends up with a single
 path connecting the dungeon! If instead the rooms are connected Rogue style (choosing a random x,y point on each room to connect) or tutorial style (connecting

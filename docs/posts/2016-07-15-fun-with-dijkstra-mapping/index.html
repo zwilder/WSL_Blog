@@ -353,7 +353,16 @@ DijkstraMap <span style="color:#a6e22e">generateDijkstraSafety</span>(std<span s
 <p>So it isn&rsquo;t perfect - I&rsquo;m sure the iteration through the map cells could be optimized to run differently, and I&rsquo;m not sure about making DijkstraMap a struct instead of a class. I originally tried this with a class, but the class seemed bulky and awkward to shove in to my game logic. Really, all the map should be is a vector of integers, and the only thing it needs to know about itself is the width/height of the map. Keeping the Dijkstra functions open and accessible means that they can be used anywhere, for really any reason.</p>
 <p>From here, I decided to see just how &lsquo;easily&rsquo; the maps could be used to implement things like auto-exploration of the map - turns out, it was INCREDIBLY easy. Instead of setting just one goal before generating the map, setting the goal to any unexplored area will cause the player to take the shortest possible route across the map to explore every single tile. Once all the tiles are explored, the goal is changed to the downward staircase, and the player paths quickly there.</p>
 <p>And here&rsquo;s a video of the auto-explore in action (I accidently forgot about the cursor when I started recording the screen&hellip;):</p>
-<!-- raw HTML omitted -->
+<div id="ltbox-div">
+    <a data-fancybox href="/images//AutoExplore.mp4">
+        <video controls id=" id "
+            style="max-width:33%;display: block;margin-left: auto;margin-right:auto;">
+            <source src="/images//AutoExplore.mp4" type="video/mp4">
+            Auto Explore Video
+        </video>
+    </a>
+</div>
+
 <p>The next project will be actually using this in the game AI, and adding a &lsquo;desire&rsquo; component for each monster. Of course, this might also be a good time to implement a time/turn tracking system&hellip; Or a health system&hellip;</p>
 
 </main>
