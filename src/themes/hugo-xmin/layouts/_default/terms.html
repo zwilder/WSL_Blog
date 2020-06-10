@@ -1,15 +1,21 @@
 {{ partial "header.html" . }}
 
-<h1>{{ .Title }}</h1>
+<div class="article-meta">
+    <div class="title"><span>{{ .Title | markdownify }}</span></div>
+</div>
 
 <hr/>
 <ul class="terms">
   {{ range $key, $value := .Data.Terms }}
   <li>
-    <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}">
+    <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}" class="circle">
+        <div>
+        {{ len $value }}
+        </div>
+    </a>
+    <a href="{{ (print "/" $.Data.Plural "/" $key | urlize) | relURL }}" style="display:inline-block;">
       {{ $key }}
     </a>
-    ({{ len $value }})
   </li>
   {{ end }}
 

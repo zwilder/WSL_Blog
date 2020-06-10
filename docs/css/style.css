@@ -384,3 +384,55 @@ thead, tfoot, tr:nth-child(even) { background: #eee; }
 h1 {
   font-weight: normal;
 }
+
+/* Special lists for terms page */
+.terms ul {
+    list-style-type:none;
+    width:100%;
+}
+.terms li {
+    display:inline-block;
+    width:33%;
+}
+@media (max-width:600px) {
+    .terms li {
+        width: 100%;
+        display:block;
+    }
+}
+.circle div{
+    display:inline-block;
+    color:#fff;
+    background:#222;
+    width:16%;
+    text-align:center;
+    margin:10px;
+    border:2px solid #222; 
+    border-radius: 5px;
+}
+/*
+.circle div:hover{
+    display:inline-block;
+    color:#222;
+    background:#fff;
+    width:16%;
+    text-align:center;
+    margin:10px;
+    border:2px solid #222; 
+    border-radius: 10px;
+}
+*/
+.circle a:link, .circle a:visited, .circle a:hover, .circle a:active {
+    text-decoration: none;
+}
+/*
+a:link,a:visited { 
+ color: #3d2645;
+ text-decoration: underline;
+}
+
+a:hover, a:active {
+ color: #aa4465;
+ text-decoration: underline;
+}
+*/

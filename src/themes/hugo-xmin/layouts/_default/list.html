@@ -10,11 +10,13 @@
     {{ range $index, $value := (where .Data.Pages "Section" "!=" "") }}
         <div class="list-article">
             {{ if not (eq $index 0) }}<hr class="list-break" \>{{ end }}
+            <!--
             {{ if .Params.Thumb }}
             <a href="/images/{{ .Params.Thumb }}" class="ltbox-trigger" >
                 <img class="{{ if not (eq (mod $index 2) 0) }}page-thumb-right{{ else }}page-thumb-left{{ end }}" src="/images/{{ .Params.Thumb }}" />
             </a>
             {{ end }}
+            -->
             <div class="list-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></div>
             {{ with .Params.author }}
                 <span class="list-author">{{ . }}</span>
@@ -25,6 +27,7 @@
             <p class="list-summary">
             {{ .Summary | plainify | safeHTML }}
                 {{ if .Truncated }}
+                  <br/>
                   <a href="{{ .Permalink }}">
                     [Read more]
                   </a>

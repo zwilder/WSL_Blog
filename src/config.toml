@@ -15,21 +15,21 @@ footnotereturnlinkcontents = "↩"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
+    name= "Archive"
+    url= "/posts/"
+    weight = 3
 [[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 3
+    weight = 4
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 5
 [[menu.main]]
     name = "Subscribe"
     url = "/subscribe/"
-    weight = 5
+    weight = 6
 
 [params]
     description = "The online blog for all of Zach's projects, rambles, and stuff."
