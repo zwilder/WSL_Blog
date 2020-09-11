@@ -1,6 +1,6 @@
 <div id="ltbox-div">
     <div class="ltbox-gallery-row">
-        {{ if ((.Get `src1`) isset "") }}
+        {{ if (isset (.Get `src1`) "") }}
         <div class="ltbox-gallery-col">
             <a data-fancybox="gallery{{if (( .Get `id` ))}}-{{ .Get `id`}}{{ end }}"
                data-loop="true"
@@ -11,7 +11,7 @@
             </a>
         </div>
         {{ end }}
-        {{ if ((.Get `src2`) isset "") }}
+        {{ if (isset (.Get `src2`) "") }}
         <div class="ltbox-gallery-col">
             <a data-fancybox="gallery{{if (( .Get `id` ))}}-{{ .Get `id`}}{{ end }}"
                data-loop="true"
@@ -22,7 +22,7 @@
             </a>
         </div>
         {{ end }}
-        {{ if ((.Get `src3`) isset "") }}
+        {{ if (isset (.Get `src3`) "") }}
         <div class="ltbox-gallery-col">
             <a data-fancybox="gallery{{if (( .Get `id` ))}}-{{ .Get `id`}}{{ end }}"
                data-buttons='["zoom","fullScreen","close"]'
