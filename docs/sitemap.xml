@@ -3,22 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/2020-09-10-18lpack/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/myog/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/myog/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/projects/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/projects/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sewing/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/vintage-machines/</loc>
+    <lastmod>2020-09-12T07:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/art/</loc>
     <lastmod>2020-06-06T07:00:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-06-06T07:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/pen-and-ink/</loc>
-    <lastmod>2020-06-06T07:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <lastmod>2020-06-06T07:00:00-07:00</lastmod>
   </url>
   
@@ -34,16 +79,6 @@
   
   <url>
     <loc>/categories/stories/</loc>
-    <lastmod>2020-06-06T07:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-06T07:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2020-06-06T07:00:00-07:00</lastmod>
   </url>
   
@@ -109,11 +144,6 @@
   
   <url>
     <loc>/posts/2019-07-21-ailanthus/</loc>
-    <lastmod>2019-07-21T08:00:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ai/</loc>
     <lastmod>2019-07-21T08:00:00-07:00</lastmod>
   </url>
   
@@ -305,6 +335,11 @@
   <url>
     <loc>/posts/2016-11-12-partying-with-jekyll/</loc>
     <lastmod>2016-11-12T18:15:06-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ai/</loc>
+    <lastmod>2016-07-15T08:29:06-07:00</lastmod>
   </url>
   
   <url>

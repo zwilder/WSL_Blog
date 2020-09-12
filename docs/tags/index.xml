@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Wsl Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jun 2020 07:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2020 07:00:00 -0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MYOG</title>
+      <link>/tags/myog/</link>
+      <pubDate>Sat, 12 Sep 2020 07:00:00 -0700</pubDate>
+      
+      <guid>/tags/myog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/tags/projects/</link>
+      <pubDate>Sat, 12 Sep 2020 07:00:00 -0700</pubDate>
+      
+      <guid>/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sewing</title>
+      <link>/tags/sewing/</link>
+      <pubDate>Sat, 12 Sep 2020 07:00:00 -0700</pubDate>
+      
+      <guid>/tags/sewing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vintage Machines</title>
+      <link>/tags/vintage-machines/</link>
+      <pubDate>Sat, 12 Sep 2020 07:00:00 -0700</pubDate>
+      
+      <guid>/tags/vintage-machines/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Art</title>
@@ -89,15 +125,6 @@
       <pubDate>Fri, 02 Aug 2019 07:00:00 -0700</pubDate>
       
       <guid>/tags/trifoliate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>/tags/ai/</link>
-      <pubDate>Sun, 21 Jul 2019 08:00:00 -0700</pubDate>
-      
-      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     
@@ -278,6 +305,15 @@
       <pubDate>Tue, 15 Nov 2016 19:18:06 -0700</pubDate>
       
       <guid>/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>/tags/ai/</link>
+      <pubDate>Fri, 15 Jul 2016 08:29:06 -0700</pubDate>
+      
+      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     
