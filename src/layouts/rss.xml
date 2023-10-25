@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ .Site.Title }}</title>
-    <link>https://www.wsl-blog.com/posts/</link>
+    <link>https://zwilder.github.io/posts/</link>
     <description>Adventures in making, arting, exploring, and other things.</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
@@ -17,19 +17,19 @@
     {{ range $index, $value := (where $pages "Section" "!=" "") }}
     <item>
       <title>{{ .Title }}</title>
-      <link>https://www.wsl-blog.com{{ .Permalink }}</link>
+      <link>https://zwilder.github.io{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       <author>{{ with .Params.author }}{{.}}{{end}}</author>
       {{ if .Params.Thumb }}
-      <media:content url="https://www.wsl-blog.com/images/{{ .Params.Thumb }}" medium="image" />
+      <media:content url="https://zwilder.github.io/images/{{ .Params.Thumb }}" medium="image" />
       <image>
-          <url>https://www.wsl-blog.com/images/{{ .Params.Thumb }}</url>
+          <url>https://zwilder.github.io/images/{{ .Params.Thumb }}</url>
           <title>{{ .Title }} Thumbnail</title>
-          <link>https://www.wsl-blog.com/</link>
+          <link>https://zwilder.github.io/</link>
       </image>
       {{ end }}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }} - &lt;a href="https://www.wsl-blog.com{{ .Permalink }}"&gt;[Read more]&lt;/a&gt;</description>
+      <description>{{ .Summary | html }} - &lt;a href="https://zwilder.github.io{{ .Permalink }}"&gt;[Read more]&lt;/a&gt;</description>
     </item>
     {{ end }}
   </channel>
