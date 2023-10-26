@@ -7,7 +7,7 @@
                data-buttons='["zoom","fullScreen","close"]'
                data-animation-effect="false" href="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{.Get `src1` }}">
                 <img style="width:100%;" class="{{if .Get `nsfw`}}nsfw{{ end }}"
-                     src="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{ .Get `src1` }}">
+                     src="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets}}/lq-{{ .Get `src1` }}">
             </a>
         </div>
         {{ end }}
@@ -18,7 +18,7 @@
                data-buttons='["zoom","fullScreen","close"]'
                data-animation-effect="false" href="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{.Get `src2` }}">
                 <img style="width:100%;" class="{{if .Get `nsfw`}}nsfw{{ end }}"
-                     src="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{ .Get `src2` }}">
+                     src="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets}}/lq-{{ .Get `src2` }}">
             </a>
         </div>
         {{ end }}
@@ -29,7 +29,7 @@
                data-loop="true"
                data-animation-effect="false" href="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{.Get `src3` }}">
                 <img style="width:100%;" class="{{if .Get `nsfw`}}nsfw{{ end }}"
-                     src="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{ .Get `src3` }}">
+                     src="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets}}/lq-{{ .Get `src3` }}">
             </a>
         </div>
         {{ end }}
