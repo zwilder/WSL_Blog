@@ -2,9 +2,10 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Wsl Blog"
 theme = "hugo-xmin"
-disqusShortname = "wsl-blog-1"
+disqusShortname = "zwilder-github-io"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
+summaryLength = 100
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"

@@ -22,7 +22,7 @@
                 <span class="list-author">{{ . }}</span>
             {{ end }}
             {{ if (gt .Params.date 0) }}
-                <span class="list-date"> - {{ .Date.Format "01/02/2006"}}</span>
+                <span class="list-date"> - {{ .Date.Format "2 Jan 2006"}}</span>
             {{ end }}
             <p class="list-summary">
             {{ .Summary | plainify | safeHTML }}
