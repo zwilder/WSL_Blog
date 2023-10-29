@@ -38,25 +38,23 @@
         <hr/>
         {{ .Content }}
         <hr/>
-        <div style="width:100%;text-align:center;">
-            <a href="{{ .Permalink }}#comments">
-              [Click here to comment on this post!]
-            </a>
-            <br/>
-            {{ with .PrevInSection }}
-            <span>
-                <!-- <a href = "{{ .Permalink }}">&#38;laquo;&#38;laquo; {{ .Title }}</a> -->
-                <a href = "{{ .Permalink }}">&laquo;&laquo; Previous Post</a>
-            </span>
-            {{ end }}
-            {{ with .NextInSection }}
-            <span>
-                |
-                <!-- <a href = "{{ .Permalink }}">{{ .Title }} &#38;raquo;&#38;raquo;</a> -->
-                <a href = "{{ .Permalink }}">Next Post &raquo;&raquo;</a>
-            </span>
-            {{ end }}
-        </div>
+    <div style="width:100%;text-align:center;">
+        {{ with .PrevInSection }}
+        <span>
+            <!-- <a href = "{{ .Permalink }}">&#38;laquo;&#38;laquo; {{ .Title }}</a> -->
+            <!--<a href = "{{ .Permalink }}">&laquo;&laquo; Previous Post</a> -->
+            <a href = "{{ .Permalink }}">&laquo;&laquo; Last Time: {{ .Title }}</a>
+        </span>
+        {{ end }}
+        {{ with .NextInSection }}
+        <span>
+            <b>||</b>
+            <!-- <a href = "{{ .Permalink }}">{{ .Title }} &#38;raquo;&#38;raquo;</a> -->
+            <!--<a href = "{{ .Permalink }}">Next Post &raquo;&raquo;</a>-->
+            <a href = "{{ .Permalink }}">Up Next: {{ .Title }} &raquo;&raquo;</a>
+        </span>
+        {{ end }}
+    </div>
     {{ end }}
 
     <!-- The following gets the latest post and slaps it in -->
