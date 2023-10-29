@@ -8,11 +8,7 @@ Categories:
   - Invasive Plants
 Tags:
   - Invasive
-  - Alternate
-  - Scale-like
-  - Deciduous 
-  - Tamarix ramosissima 
-  - Tamaricaceae
+  - Trees
 Thumb: "2019-08-09-SaltCedar/GlamourShot.jpg"
 ---
 

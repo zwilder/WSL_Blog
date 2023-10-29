@@ -7,12 +7,7 @@ Categories:
   - Invasive Plants
 Tags:
   - Invasive
-  - Alternate
-  - Trifoliate 
-  - African Sumac
-  - Sersia lancea
-  - Rhus lancea
-  - Anacardiaceae
+  - Trees
 Thumb: "2019-08-02-AfricanSumac/GlamourShot6.jpg"
 assets: "2019-08-02-AfricanSumac"
 ---

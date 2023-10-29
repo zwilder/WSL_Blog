@@ -1,9 +1,16 @@
 <div id="ltbox-div">
     <a data-fancybox href="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{ .Get `src` }}">
         <video controls id="{{ if (( .Get `id `)) }} {{ .Get `id` }} {{ else }} id {{ end }}"
+{{ if (( .Get `src2` )) }} 
+            poster="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{ .Get `src2` }}" 
+{{ end }}
             style="max-width:33%;display: block;margin-left: auto;margin-right:auto;">
             <source src="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{ .Get `src` }}" type="video/mp4">
             {{ .Get `tag` }}
         </video>
+        <!--
+        <img class="ltbox-thumb" 
+        src="{{ .Page.Site.BaseURL }}images/{{ .Page.Params.assets }}/{{ .Get `src2` }}">
+        -->
     </a>
 </div>

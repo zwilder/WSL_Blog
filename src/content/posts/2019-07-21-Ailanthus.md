@@ -7,12 +7,7 @@ Categories:
   - Invasive Plants
 Tags:
   - Invasive
-  - Deciduous
-  - Alternate
-  - Pinnately compound
-  - Ailanthus altissima
-  - tree of heaven
-  - Simaroubaceae
+  - Trees
 Thumb: "2019-07-21-Ailanthus/GlamourShot1.jpg"
 assets: "2019-07-21-Ailanthus"
 ---
