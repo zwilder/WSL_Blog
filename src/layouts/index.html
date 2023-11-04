@@ -39,6 +39,10 @@
         {{ .Content }}
         <hr/>
     <div style="width:100%;text-align:center;">
+        <a href="{{ .Permalink }}#comments">
+          [Click here to comment on this post!]
+        </a>
+        <br/>
         {{ with .PrevInSection }}
         <span>
             <!-- <a href = "{{ .Permalink }}">&#38;laquo;&#38;laquo; {{ .Title }}</a> -->
