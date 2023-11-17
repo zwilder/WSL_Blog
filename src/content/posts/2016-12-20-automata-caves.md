@@ -8,6 +8,7 @@ tags:
   - Roguelike
   - C++
   - Cellular Automata
+  - Procedural Generation
 ---
 
 So, every time I get the urge to write a blog post about whatever random bit of code I'm writing - I look at the blog and think: "Hm, this is kinda ugly." Then, I have to rewrite it until I'm mostly satisfied with

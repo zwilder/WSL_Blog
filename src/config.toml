@@ -5,7 +5,7 @@ theme = "hugo-xmin"
 disqusShortname = "zwilder-github-io"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
-summaryLength = 100
+summaryLength = 350
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
@@ -31,6 +31,10 @@ summaryLength = 100
     name = "Subscribe"
     url = "/subscribe/"
     weight = 6
+[[menu.main]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 7
 
 [params]
     description = "The online blog for all of Zach's projects, rambles, and stuff."

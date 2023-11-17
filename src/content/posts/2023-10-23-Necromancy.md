@@ -29,7 +29,7 @@ Surrounded by the beauty of the coast, we tried to make the most out of living
 there. On our 45 minute drives every week to the grocery store we'd pass dozens
 of new and exciting hiking trails - so we spent a lot of time hiking and
 exploring. We acquired a canoe, and took that out whenever we could. 
-
+<!--more-->
 {{<fancybox_gallery id=0
   src1="2020-1.jpg"
   src2="2020-2.jpg"

@@ -7,6 +7,7 @@ Categories:
 tags:
   - C++
   - Roguelike
+  - Procedural Generation
 assets: 2017-01-07-gradients-and-actions
 ---
 
