@@ -12,7 +12,16 @@
         {{ end }}
     </div>
 </div>
-
+<div class="author" style="width:100%;text-align:center;">
+    {{ range $key, $value := .Params.tags}}
+        {{ if gt $key 0 }}
+            /
+        {{ end }}
+        <a href ="{{ (print "/tags/" $value | urlize) | relURL }}">
+            {{ print $value }}
+        </a>
+    {{ end }}
+</div>
 <hr/>
 
 <main>

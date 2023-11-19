@@ -5,7 +5,7 @@ theme = "hugo-xmin"
 disqusShortname = "zwilder-github-io"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
-summaryLength = 350
+summaryLength = 150
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"

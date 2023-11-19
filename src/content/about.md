@@ -8,10 +8,6 @@ Well, I am just some guy with a computer and some free time - and I spend that
 free time making things, exploring places, and "entertaining" family and
 coworkers with stories.
 
-Professionally, I work as a senior consulting utility forester. I am an ISA
-Certified Arborist/Utility Specialist, with (the majority of) my degree in
-Ecology from the University of Arizona, and I am a veteran of the US Navy. 
-
 ## What is "Wsl"?
 
 It's short for "weasel". Most of my ideas began as inspiration gained from
