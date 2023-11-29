@@ -3,9 +3,13 @@ languageCode = "en-us"
 title = "Wsl Blog"
 theme = "hugo-xmin"
 disqusShortname = "zwilder-github-io"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.bak$","\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 summaryLength = 150
+
+[layouts]
+    [[layouts.mounts]]
+        excludeFiles='*.bak'
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"

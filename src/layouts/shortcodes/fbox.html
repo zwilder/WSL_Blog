@@ -1,0 +1,37 @@
+<div id="ltbox-div">
+    <div class="ltbox-gallery-row">
+        {{ $items := strings.Replace .Inner "\r\n" "\n" }}
+        {{ $items = strings.Trim $items "\n" }}
+        {{ $items = strings.Split $items "\n" }}
+        {{ range $items }}
+            {{ $v := ( . ) }}
+            {{ $s := strings.Split $v " "}}
+            <div class="ltbox-gallery-col">
+            {{if (strings.Contains $v "mp4") }}
+                <a data-fancybox="gallery-{{ index $s 0 }}"
+                    href="{{ $.Page.Site.BaseURL }}images/{{ $.Page.Params.assets }}/{{ index $s 1 }}">
+                    <video 
+                        controls 
+                    {{ if (index $s 2) }}
+                        poster = "{{ $.Page.Site.BaseURL }}images/{{ $.Page.Params.assets }}/{{ index $s 2 }}"
+                    {{ end }}
+                        id="id"
+                        style="width:100%;margin-top:8px;verical-align:middle;object-fit:
+                            scale-down">
+                        <source src="{{ $.Page.Site.BaseURL }}images/{{ $.Page.Params.assets }}/{{ index $s 1 }}" type="video/mp4">
+                            {{ $v }}
+                    </video>
+                </a>
+            {{ else }}
+                <a data-fancybox="gallery-{{ index $s 0 }}"
+                   data-loop="true"
+                   data-buttons='["zoom","fullScreen","close"]'
+                   data-animation-effect="false" href="{{ $.Page.Site.BaseURL }}images/{{ $.Page.Params.assets }}/{{ index $s 1 }}">
+                    <img style="width:100%;"
+                         src="{{ $.Page.Site.BaseURL }}images/{{ $.Page.Params.assets }}/lq-{{ index $s 1 }}">
+                </a>
+            {{ end }}
+            </div>
+        {{ end }}
+    </div>
+</div>
